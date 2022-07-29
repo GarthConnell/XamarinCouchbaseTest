@@ -1,0 +1,1643 @@
+Forwarding debugger port 8895
+Detecting existing process
+Terminated existing process
+> am start -a "android.intent.action.MAIN" -c "android.intent.category.LAUNCHER" -n "com.companyname.xamarincouchbasetest/crc6481c1b26783a87849.MainActivity"
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-ldr07-29 07:37:58.715 D/LocalDisplayAdapter(  917): setDisplayBrightness(id=0, brightness=190)
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry:07-29 07:37:58.733 D/DisplayPowerState(  917): Screen not ready
+[monodroid-assembly]     ZIP: local heerState(  917): Requesting new screen state: state=ON, backlight=183
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_ic_star_half_black_16d07-29 07:37:58.771 D/DisplayManagerService(  917): Update global display state for DisplayDeviceInfo{"Built-in Screen": uniqueId="local:0", 1080 x 1920, modeId 1, defaultModeId 1, supportedModes [{id=1, width=1080, height=1920, fps=53.530003}], density 480, 480.0 x 480.0 dpi, appVsyncOff -8000000, presDeadline 27681113, touch INTERNAL, rotation 0, type BUILT_IN, state ON, FLAG_DEFAULT_DISPLAY, FLAG_ROTATES_WITH_CONTENT, FLAG_SECURE, FLAG_SUPPORTS_PROTECTED_BUFFERS}
+> Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.companyname.xamarincouchbasetest/crc6481c1b26783a87849.MainActivity }
+
+[monodroid-assembly]     ZIP: local header offset: 212357; data offset: 212444; file size: 89907-29 07:37:59.032 D/DisplayPowerState(  917): Requesting new screen state: state=ON, backlight=127
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/interpolator/fast_out_slow_in.xml07-29 07:37:59.088 D/DisplayPowerState(  917): Updating screen state: state=ON, backlight=116, backlightChanged=true
+[monodroid-assembly] /data/app/com.companyname.x07-29 07:37:59.443 D/DisplayPowerState(  917): Requesting new screen state: state=ON, backlight=45
+[monodroid-assembly]     ZIP: local header offset: 272109; data offset: 272  917): Screen not ready
+[monodroid-assembly] /data/app/com.compaue
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/m07-29 07:38:06.048 D/PowerManagerService(  917): releaseWakeLockInternal: lock=109419916 [ConnectivityService], flags=0x0, total_time=60061ms
+[monodroid-assembly] /data/app/com.companyname.xamarincD_BUFFERS}
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasete(  917): Screen ready
+[monodroid-assembly]     ZIP: local header erState(  917): Requesting new screen state: state=ON, backlight=47
+[monodroid-assembly] /data/app/com.companyname.07-29 07:38:55.376 D/DisplayPowerState(  917): Screen not ready
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/XamarinCouchbaseTest.Android.dll
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Couchbase.Lite.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Couchbase.Lite.Support.Android.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/FormsViewGroup.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Microsoft.Bcl.AsyncInterfaces.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Newtonsoft.Json.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/SimpleInjector.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/System.Collections.Immutable.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.Activity.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.Annotation.dll [External]
+[art] Late-enabling -Xcheck:jni
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.Annotation.Experimental.dll [External]
+[debug-app-helper] Checking if libmonodroid was unpacked to /data/app/com.companyname.xamarincouchbasetest-1/lib/arm64/libmonodroid.so
+[debug-app-helper] Native libs extracted to /data/app/com.companyname.xamarincouchbasetest-1/lib/arm64, assuming application/android:extractNativeLibs == true
+[debug-app-helper] Setting up for DSO lookup in app data directories
+[debug-app-helper] Added filesystem DSO lookup location: /data/app/com.companyname.xamarincouchbasetest-1/lib/arm64
+[debug-app-helper] Using runtime path: /data/app/com.companyname.xamarincouchbasetest-1/lib/arm64
+[debug-app-helper] checking directory: `/data/user/0/com.companyname.xamarincouchbasetest/files/.__override__/lib`
+[debug-app-helper] directory does not exist: `/data/user/0/com.companyname.xamarincouchbasetest/files/.__override__/lib`
+[debug-app-helper] Checking whether Mono runtime exists at: /data/user/0/com.companyname.xamarincouchbasetest/files/.__override__/libmonosgen-2.0.so
+[debug-app-helper] Checking whether Mono runtime exists at: /data/app/com.companyname.xamarincouchbasetest-1/lib/arm64/libmonosgen-2.0.so
+[debug-app-helper] Mono runtime found at: /data/app/com.companyname.xamarincouchbasetest-1/lib/arm64/libmonosgen-2.0.so
+[System] FinalizerDaemon: finalize objects = 1
+[art] Attempt to remove non-JNI local reference, dumping thread
+[monodroid] Creating public update directory: `/data/user/0/com.companyname.xamarincouchbasetest/files/.__override__`
+[art] Attempt to remove non-JNI local reference, dumping thread
+[monodroid-debug] Trying to initialize the debugger with options: --debugger-agent=transport=dt_socket,loglevel=0,address=127.0.0.1:8895,server=y,embedding=1
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: AndroidManifest.xml
+[monodroid-assembly]     ZIP: local header offset: 0; data offset: 49; file size: 6020
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/abc_fade_in.xml
+[monodroid-assembly]     ZIP: local header offset: 1825; data offset: 1879; file size: 388
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/abc_fade_out.xml
+[monodroid-assembly]     ZIP: local header offset: 2096; data offset: 2151; file size: 388
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/abc_grow_fade_in_from_bottom.xml
+[monodroid-assembly]     ZIP: local header offset: 2369; data offset: 2440; file size: 852
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/abc_popup_enter.xml
+[monodroid-assembly]     ZIP: local header offset: 2816; data offset: 2874; file size: 508
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/abc_popup_exit.xml
+[monodroid-assembly]     ZIP: local header offset: 3132; data offset: 3189; file size: 508
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/abc_shrink_fade_out_from_bottom.xml
+[monodroid-assembly]     ZIP: local header offset: 3449; data offset: 3523; file size: 852
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/abc_slide_in_bottom.xml
+[monodroid-assembly]     ZIP: local header offset: 3900; data offset: 3962; file size: 396
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/abc_slide_in_top.xml
+[monodroid-assembly]     ZIP: local header offset: 4190; data offset: 4249; file size: 396
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/abc_slide_out_bottom.xml
+[monodroid-assembly]     ZIP: local header offset: 4478; data offset: 4541; file size: 396
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/abc_slide_out_top.xml
+[monodroid-assembly]     ZIP: local header offset: 4768; data offset: 4828; file size: 396
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/abc_tooltip_enter.xml
+[monodroid-assembly]     ZIP: local header offset: 5056; data offset: 5116; file size: 388
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/abc_tooltip_exit.xml
+[monodroid-assembly]     ZIP: local header offset: 5333; data offset: 5392; file size: 388
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/btn_checkbox_to_checked_box_inner_merged_animation.xml
+[monodroid-assembly]     ZIP: local header offset: 5609; data offset: 5702; file size: 2124
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/btn_checkbox_to_checked_box_outer_merged_animation.xml
+[monodroid-assembly]     ZIP: local header offset: 6344; data offset: 6437; file size: 2780
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/btn_checkbox_to_checked_icon_null_animation.xml
+[monodroid-assembly]     ZIP: local header offset: 7178; data offset: 7264; file size: 1196
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/btn_checkbox_to_unchecked_box_inner_merged_animation.xml
+[monodroid-assembly]     ZIP: local header offset: 7660; data offset: 7755; file size: 2360
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/btn_checkbox_to_unchecked_check_path_merged_animation.xml
+[monodroid-assembly]     ZIP: local header offset: 8413; data offset: 8509; file size: 2520
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/btn_checkbox_to_unchecked_icon_null_animation.xml
+[monodroid-assembly]     ZIP: local header offset: 9240; data offset: 9328; file size: 1196
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/btn_radio_to_off_mtrl_dot_group_animation.xml
+[monodroid-assembly]     ZIP: local header offset: 9724; data offset: 9808; file size: 1656
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/btn_radio_to_off_mtrl_ring_outer_animation.xml
+[monodroid-assembly]     ZIP: local header offset: 10239; data offset: 10324; file size: 1656
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/btn_radio_to_off_mtrl_ring_outer_path_animation.xml
+[monodroid-assembly]     ZIP: local header offset: 10757; data offset: 10847; file size: 1028
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/btn_radio_to_on_mtrl_dot_group_animation.xml
+[monodroid-assembly]     ZIP: local header offset: 11220; data offset: 11303; file size: 1656
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/btn_radio_to_on_mtrl_ring_outer_animation.xml
+[monodroid-assembly]     ZIP: local header offset: 11724; data offset: 11808; file size: 1656
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/btn_radio_to_on_mtrl_ring_outer_path_animation.xml
+[monodroid-assembly]     ZIP: local header offset: 12237; data offset: 12326; file size: 1028
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim-v21/design_bottom_sheet_slide_in.xml
+[monodroid-assembly]     ZIP: local header offset: 12706; data offset: 12781; file size: 616
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim-v21/design_bottom_sheet_slide_out.xml
+[monodroid-assembly]     ZIP: local header offset: 13080; data offset: 13156; file size: 616
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/design_snackbar_in.xml
+[monodroid-assembly]     ZIP: local header offset: 13454; data offset: 13515; file size: 312
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/design_snackbar_out.xml
+[monodroid-assembly]     ZIP: local header offset: 13696; data offset: 13758; file size: 312
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/enterfromleft.xml
+[monodroid-assembly]     ZIP: local header offset: 13936; data offset: 13992; file size: 640
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/enterfromright.xml
+[monodroid-assembly]     ZIP: local header offset: 14294; data offset: 14351; file size: 468
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/exittoleft.xml
+[monodroid-assembly]     ZIP: local header offset: 14594; data offset: 14647; file size: 640
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.AppCompat.AppCompatResources.dll [External]
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/exittoright.xml
+[monodroid-assembly]     ZIP: local header offset: 14948; data offset: 15002; file size: 468
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/fragment_close_enter.xml
+[monodroid-assembly]     ZIP: local header offset: 15245; data offset: 15308; file size: 1076
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/fragment_close_exit.xml
+[monodroid-assembly]     ZIP: local header offset: 15771; data offset: 15833; file size: 1120
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/fragment_fade_enter.xml
+[monodroid-assembly]     ZIP: local header offset: 16321; data offset: 16383; file size: 388
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/fragment_fade_exit.xml
+[monodroid-assembly]     ZIP: local header offset: 16600; data offset: 16661; file size: 388
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim-v21/fragment_fast_out_extra_slow_in.xml
+[monodroid-assembly]     ZIP: local header offset: 16878; data offset: 16956; file size: 364
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/fragment_open_enter.xml
+[monodroid-assembly]     ZIP: local header offset: 17174; data offset: 17236; file size: 1076
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/fragment_open_exit.xml
+[monodroid-assembly]     ZIP: local header offset: 17701; data offset: 17762; file size: 1076
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim-v21/mtrl_bottom_sheet_slide_in.xml
+[monodroid-assembly]     ZIP: local header offset: 18228; data offset: 18301; file size: 616
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim-v21/mtrl_bottom_sheet_slide_out.xml
+[monodroid-assembly]     ZIP: local header offset: 18600; data offset: 18674; file size: 616
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/anim/mtrl_card_lowers_interpolator.xml
+[monodroid-assembly]     ZIP: local header offset: 18970; data offset: 19042; file size: 400
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/animator-v21/design_appbar_state_list_animator.xml
+[monodroid-assembly]     ZIP: local header offset: 19258; data offset: 19342; file size: 1216
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/animator/design_fab_hide_motion_spec.xml
+[monodroid-assembly]     ZIP: local header offset: 19784; data offset: 19858; file size: 796
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/animator/design_fab_show_motion_spec.xml
+[monodroid-assembly]     ZIP: local header offset: 20187; data offset: 20261; file size: 796
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/animator/mtrl_btn_state_list_anim.xml
+[monodroid-assembly]     ZIP: local header offset: 20587; data offset: 20658; file size: 2664
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/animator/mtrl_btn_unelevated_state_list_anim.xml
+[monodroid-assembly]     ZIP: local header offset: 21268; data offset: 21350; file size: 120
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/animator/mtrl_card_state_list_anim.xml
+[monodroid-assembly]     ZIP: local header offset: 21416; data offset: 21488; file size: 1208
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/animator/mtrl_chip_state_list_anim.xml
+[monodroid-assembly]     ZIP: local header offset: 21971; data offset: 22043; file size: 1072
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/animator/mtrl_extended_fab_change_size_motion_spec.xml
+[monodroid-assembly]     ZIP: local header offset: 22434; data offset: 22522; file size: 640
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/animator/mtrl_extended_fab_hide_motion_spec.xml
+[monodroid-assembly]     ZIP: local header offset: 22813; data offset: 22894; file size: 608
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/animator/mtrl_extended_fab_show_motion_spec.xml
+[monodroid-assembly]     ZIP: local header offset: 23216; data offset: 23297; file size: 820
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/animator/mtrl_extended_fab_state_list_animator.xml
+[monodroid-assembly]     ZIP: local header offset: 23656; data offset: 23740; file size: 2724
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/animator/mtrl_fab_hide_motion_spec.xml
+[monodroid-assembly]     ZIP: local header offset: 24351; data offset: 24423; file size: 796
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/animator/mtrl_fab_show_motion_spec.xml
+[monodroid-assembly]     ZIP: local header offset: 24757; data offset: 24829; file size: 796
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/animator/mtrl_fab_transformation_sheet_collapse_spec.xml
+[monodroid-assembly]     ZIP: local header offset: 25166; data offset: 25256; file size: 1888
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/animator/mtrl_fab_transformation_sheet_expand_spec.xml
+[monodroid-assembly]     ZIP: local header offset: 25768; data offset: 25856; file size: 1888
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/abc_background_cache_hint_selector_material_dark.xml
+[monodroid-assembly]     ZIP: local header offset: 26365; data offset: 26457; file size: 468
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/abc_background_cache_hint_selector_material_light.xml
+[monodroid-assembly]     ZIP: local header offset: 26688; data offset: 26781; file size: 468
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color-v21/abc_btn_colored_borderless_text_material.xml
+[monodroid-assembly]     ZIP: local header offset: 27012; data offset: 27100; file size: 464
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/abc_btn_colored_text_material.xml
+[monodroid-assembly]     ZIP: local header offset: 27328; data offset: 27401; file size: 604
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/abc_hint_foreground_material_dark.xml
+[monodroid-assembly]     ZIP: local header offset: 27673; data offset: 27750; file size: 564
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/abc_hint_foreground_material_light.xml
+[monodroid-assembly]     ZIP: local header offset: 28010; data offset: 28088; file size: 564
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/abc_primary_text_disable_only_material_dark.xml
+[monodroid-assembly]     ZIP: local header offset: 28348; data offset: 28435; file size: 464
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/abc_primary_text_disable_only_material_light.xml
+[monodroid-assembly]     ZIP: local header offset: 28663; data offset: 28751; file size: 464
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/abc_primary_text_material_dark.xml
+[monodroid-assembly]     ZIP: local header offset: 28979; data offset: 29053; file size: 464
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/abc_primary_text_material_light.xml
+[monodroid-assembly]     ZIP: local header offset: 29283; data offset: 29358; file size: 464
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/abc_search_url_text.xml
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.AppCompat.dll [External]
+[monodroid-assembly]     ZIP: local header offset: 29588; data offset: 29651; file size: 588
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/abc_secondary_text_material_dark.xml
+[monodroid-assembly]     ZIP: local header offset: 29901; data offset: 29977; file size: 464
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/abc_secondary_text_material_light.xml
+[monodroid-assembly]     ZIP: local header offset: 30206; data offset: 30283; file size: 464
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/abc_tint_btn_checkable.xml
+[monodroid-assembly]     ZIP: local header offset: 30512; data offset: 30578; file size: 728
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/abc_tint_default.xml
+[monodroid-assembly]     ZIP: local header offset: 30884; data offset: 30944; file size: 1224
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/abc_tint_edittext.xml
+[monodroid-assembly]     ZIP: local header offset: 31347; data offset: 31408; file size: 772
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/abc_tint_seek_thumb.xml
+[monodroid-assembly]     ZIP: local header offset: 31723; data offset: 31786; file size: 604
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/abc_tint_spinner.xml
+[monodroid-assembly]     ZIP: local header offset: 32058; data offset: 32118; file size: 772
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/abc_tint_switch_track.xml
+[monodroid-assembly]     ZIP: local header offset: 32432; data offset: 32497; file size: 768
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/checkbox_themeable_attribute_color.xml
+[monodroid-assembly]     ZIP: local header offset: 32807; data offset: 32885; file size: 464
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/design_box_stroke_color.xml
+[monodroid-assembly]     ZIP: local header offset: 33113; data offset: 33180; file size: 712
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/design_error.xml
+[monodroid-assembly]     ZIP: local header offset: 33465; data offset: 33521; file size: 464
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/design_icon_tint.xml
+[monodroid-assembly]     ZIP: local header offset: 33750; data offset: 33810; file size: 376
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/material_on_background_disabled.xml
+[monodroid-assembly]     ZIP: local header offset: 34017; data offset: 34092; file size: 376
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/material_on_background_emphasis_high_type.xml
+[monodroid-assembly]     ZIP: local header offset: 34292; data offset: 34377; file size: 376
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/material_on_background_emphasis_medium.xml
+[monodroid-assembly]     ZIP: local header offset: 34578; data offset: 34660; file size: 376
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/material_on_primary_disabled.xml
+[monodroid-assembly]     ZIP: local header offset: 34861; data offset: 34933; file size: 376
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/material_on_primary_emphasis_high_type.xml
+[monodroid-assembly]     ZIP: local header offset: 35137; data offset: 35219; file size: 376
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/material_on_primary_emphasis_medium.xml
+[monodroid-assembly]     ZIP: local header offset: 35423; data offset: 35502; file size: 376
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/material_on_surface_disabled.xml
+[monodroid-assembly]     ZIP: local header offset: 35706; data offset: 35778; file size: 376
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/material_on_surface_emphasis_high_type.xml
+[monodroid-assembly]     ZIP: local header offset: 35982; data offset: 36064; file size: 376
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/material_on_surface_emphasis_medium.xml
+[monodroid-assembly]     ZIP: local header offset: 36269; data offset: 36348; file size: 376
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/material_on_surface_stroke.xml
+[monodroid-assembly]     ZIP: local header offset: 36553; data offset: 36623; file size: 376
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/material_slider_active_tick_marks_color.xml
+[monodroid-assembly]     ZIP: local header offset: 36834; data offset: 36917; file size: 520
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/material_slider_active_track_color.xml
+[monodroid-assembly]     ZIP: local header offset: 37171; data offset: 37249; file size: 500
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/material_slider_halo_color.xml
+[monodroid-assembly]     ZIP: local header offset: 37496; data offset: 37566; file size: 500
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/material_slider_inactive_tick_marks_color.xml
+[monodroid-assembly]     ZIP: local header offset: 37817; data offset: 37902; file size: 520
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/material_slider_inactive_track_color.xml
+[monodroid-assembly]     ZIP: local header offset: 38160; data offset: 38240; file size: 520
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/material_slider_thumb_color.xml
+[monodroid-assembly]     ZIP: local header offset: 38495; data offset: 38566; file size: 500
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_bottom_nav_colored_item_tint.xml
+[monodroid-assembly]     ZIP: local header offset: 38815; data offset: 38892; file size: 520
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_bottom_nav_colored_ripple_color.xml
+[monodroid-assembly]     ZIP: local header offset: 39140; data offset: 39220; file size: 948
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_bottom_nav_item_tint.xml
+[monodroid-assembly]     ZIP: local header offset: 39552; data offset: 39621; file size: 520
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_bottom_nav_ripple_color.xml
+[monodroid-assembly]     ZIP: local header offset: 39872; data offset: 39944; file size: 1672
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_btn_bg_color_selector.xml
+[monodroid-assembly]     ZIP: local header offset: 40364; data offset: 40434; file size: 500
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_btn_ripple_color.xml
+[monodroid-assembly]     ZIP: local header offset: 40682; data offset: 40747; file size: 948
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_btn_stroke_color_selector.xml
+[monodroid-assembly]     ZIP: local header offset: 41067; data offset: 41141; file size: 520
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_btn_text_btn_bg_color_selector.xml
+[monodroid-assembly]     ZIP: local header offset: 41394; data offset: 41473; file size: 520
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.Arch.Core.Common.dll [External]
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_btn_text_btn_ripple_color.xml
+[monodroid-assembly]     ZIP: local header offset: 41723; data offset: 41797; file size: 948
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_btn_text_color_selector.xml
+[monodroid-assembly]     ZIP: local header offset: 42117; data offset: 42189; file size: 500
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_calendar_item_stroke_color.xml
+[monodroid-assembly]     ZIP: local header offset: 42438; data offset: 42513; file size: 808
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_calendar_selected_range.xml
+[monodroid-assembly]     ZIP: local header offset: 42830; data offset: 42902; file size: 376
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_card_view_foreground.xml
+[monodroid-assembly]     ZIP: local header offset: 43113; data offset: 43182; file size: 788
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_card_view_ripple.xml
+[monodroid-assembly]     ZIP: local header offset: 43492; data offset: 43557; file size: 768
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_chip_background_color.xml
+[monodroid-assembly]     ZIP: local header offset: 43872; data offset: 43942; file size: 848
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_chip_close_icon_tint.xml
+[monodroid-assembly]     ZIP: local header offset: 44258; data offset: 44327; file size: 1092
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_chip_ripple_color.xml
+[monodroid-assembly]     ZIP: local header offset: 44677; data offset: 44743; file size: 948
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_chip_surface_color.xml
+[monodroid-assembly]     ZIP: local header offset: 45063; data offset: 45130; file size: 340
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_chip_text_color.xml
+[monodroid-assembly]     ZIP: local header offset: 45311; data offset: 45375; file size: 520
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_choice_chip_background_color.xml
+[monodroid-assembly]     ZIP: local header offset: 45631; data offset: 45708; file size: 848
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_choice_chip_ripple_color.xml
+[monodroid-assembly]     ZIP: local header offset: 46026; data offset: 46099; file size: 948
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_choice_chip_text_color.xml
+[monodroid-assembly]     ZIP: local header offset: 46423; data offset: 46494; file size: 808
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_error.xml
+[monodroid-assembly]     ZIP: local header offset: 46804; data offset: 46858; file size: 464
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_fab_bg_color_selector.xml
+[monodroid-assembly]     ZIP: local header offset: 47086; data offset: 47156; file size: 500
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_fab_icon_text_color_selector.xml
+[monodroid-assembly]     ZIP: local header offset: 47405; data offset: 47482; file size: 500
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_fab_ripple_color.xml
+[monodroid-assembly]     ZIP: local header offset: 47731; data offset: 47796; file size: 948
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_filled_background_color.xml
+[monodroid-assembly]     ZIP: local header offset: 48116; data offset: 48188; file size: 808
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_filled_icon_tint.xml
+[monodroid-assembly]     ZIP: local header offset: 48499; data offset: 48564; file size: 644
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_filled_stroke_color.xml
+[monodroid-assembly]     ZIP: local header offset: 48851; data offset: 48919; file size: 788
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_indicator_text_color.xml
+[monodroid-assembly]     ZIP: local header offset: 49241; data offset: 49310; file size: 520
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_navigation_item_background_color.xml
+[monodroid-assembly]     ZIP: local header offset: 49563; data offset: 49644; file size: 644
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_navigation_item_icon_tint.xml
+[monodroid-assembly]     ZIP: local header offset: 49922; data offset: 49996; file size: 624
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_navigation_item_text_color.xml
+[monodroid-assembly]     ZIP: local header offset: 50277; data offset: 50352; file size: 624
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_on_primary_text_btn_text_color_selector.xml
+[monodroid-assembly]     ZIP: local header offset: 50633; data offset: 50721; file size: 500
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_outlined_icon_tint.xml
+[monodroid-assembly]     ZIP: local header offset: 50965; data offset: 51032; file size: 644
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_outlined_stroke_color.xml
+[monodroid-assembly]     ZIP: local header offset: 51319; data offset: 51389; file size: 788
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_popupmenu_overlay_color.xml
+[monodroid-assembly]     ZIP: local header offset: 51711; data offset: 51783; file size: 376
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_tabs_colored_ripple_color.xml
+[monodroid-assembly]     ZIP: local header offset: 51992; data offset: 52066; file size: 948
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_tabs_icon_color_selector.xml
+[monodroid-assembly]     ZIP: local header offset: 52398; data offset: 52471; file size: 500
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_tabs_icon_color_selector_colored.xml
+[monodroid-assembly]     ZIP: local header offset: 52715; data offset: 52796; file size: 500
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_tabs_legacy_text_color_selector.xml
+[monodroid-assembly]     ZIP: local header offset: 53038; data offset: 53118; file size: 464
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_tabs_ripple_color.xml
+[monodroid-assembly]     ZIP: local header offset: 53346; data offset: 53412; file size: 1672
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/mtrl_text_btn_text_color_selector.xml
+[monodroid-assembly]     ZIP: local header offset: 53832; data offset: 53909; file size: 888
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/radiobutton_themeable_attribute_color.xml
+[monodroid-assembly]     ZIP: local header offset: 54233; data offset: 54314; file size: 464
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/switch_thumb_material_dark.xml
+[monodroid-assembly]     ZIP: local header offset: 54542; data offset: 54612; file size: 464
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/switch_thumb_material_light.xml
+[monodroid-assembly]     ZIP: local header offset: 54841; data offset: 54912; file size: 464
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.Arch.Core.Runtime.dll [External]
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/test_mtrl_calendar_day.xml
+[monodroid-assembly]     ZIP: local header offset: 55141; data offset: 55207; file size: 340
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color/test_mtrl_calendar_day_selected.xml
+[monodroid-assembly]     ZIP: local header offset: 55387; data offset: 55462; file size: 340
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color-v23/abc_btn_colored_borderless_text_material.xml
+[monodroid-assembly]     ZIP: local header offset: 55642; data offset: 55730; file size: 500
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color-v23/abc_btn_colored_text_material.xml
+[monodroid-assembly]     ZIP: local header offset: 55971; data offset: 56048; file size: 500
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color-v23/abc_color_highlight_material.xml
+[monodroid-assembly]     ZIP: local header offset: 56290; data offset: 56366; file size: 544
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color-v23/abc_tint_btn_checkable.xml
+[monodroid-assembly]     ZIP: local header offset: 56624; data offset: 56694; file size: 624
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color-v23/abc_tint_default.xml
+[monodroid-assembly]     ZIP: local header offset: 56966; data offset: 57030; file size: 1120
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color-v23/abc_tint_edittext.xml
+[monodroid-assembly]     ZIP: local header offset: 57399; data offset: 57464; file size: 668
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color-v23/abc_tint_seek_thumb.xml
+[monodroid-assembly]     ZIP: local header offset: 57747; data offset: 57814; file size: 500
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color-v23/abc_tint_spinner.xml
+[monodroid-assembly]     ZIP: local header offset: 58055; data offset: 58119; file size: 668
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/color-v23/abc_tint_switch_track.xml
+[monodroid-assembly]     ZIP: local header offset: 58402; data offset: 58471; file size: 664
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/$avd_hide_password__0.xml
+[monodroid-assembly]     ZIP: local header offset: 58752; data offset: 58820; file size: 1176
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/$avd_hide_password__1.xml
+[monodroid-assembly]     ZIP: local header offset: 59339; data offset: 59407; file size: 592
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/$avd_hide_password__2.xml
+[monodroid-assembly]     ZIP: local header offset: 59722; data offset: 59790; file size: 556
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/$avd_show_password__0.xml
+[monodroid-assembly]     ZIP: local header offset: 60086; data offset: 60154; file size: 1136
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/$avd_show_password__1.xml
+[monodroid-assembly]     ZIP: local header offset: 60656; data offset: 60724; file size: 592
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/$avd_show_password__2.xml
+[monodroid-assembly]     ZIP: local header offset: 61038; data offset: 61106; file size: 556
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-v21/abc_action_bar_item_background_material.xml
+[monodroid-assembly]     ZIP: local header offset: 61404; data offset: 61494; file size: 264
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_btn_borderless_material.xml
+[monodroid-assembly]     ZIP: local header offset: 61648; data offset: 61722; file size: 588
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_btn_check_material.xml
+[monodroid-assembly]     ZIP: local header offset: 61974; data offset: 62043; file size: 464
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_btn_check_material_anim.xml
+[monodroid-assembly]     ZIP: local header offset: 62274; data offset: 62348; file size: 816
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-v21/abc_btn_colored_material.xml
+[monodroid-assembly]     ZIP: local header offset: 62691; data offset: 62766; file size: 1716
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_btn_default_mtrl_shape.xml
+[monodroid-assembly]     ZIP: local header offset: 63317; data offset: 63390; file size: 932
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_btn_radio_material.xml
+[monodroid-assembly]     ZIP: local header offset: 63784; data offset: 63853; file size: 464
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_btn_radio_material_anim.xml
+[monodroid-assembly]     ZIP: local header offset: 64083; data offset: 64157; file size: 816
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_cab_background_internal_bg.xml
+[monodroid-assembly]     ZIP: local header offset: 64497; data offset: 64574; file size: 372
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_cab_background_top_material.xml
+[monodroid-assembly]     ZIP: local header offset: 64758; data offset: 64836; file size: 336
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-v21/abc_dialog_material_background.xml
+[monodroid-assembly]     ZIP: local header offset: 65010; data offset: 65091; file size: 716
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-v21/abc_edit_text_material.xml
+[monodroid-assembly]     ZIP: local header offset: 65417; data offset: 65490; file size: 1172
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_ic_ab_back_material.xml
+[monodroid-assembly]     ZIP: local header offset: 65953; data offset: 66023; file size: 692
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_ic_arrow_drop_right_black_24dp.xml
+[monodroid-assembly]     ZIP: local header offset: 66403; data offset: 66484; file size: 1000
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_ic_clear_material.xml
+[monodroid-assembly]     ZIP: local header offset: 66975; data offset: 67043; file size: 684
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_ic_go_search_api_material.xml
+[monodroid-assembly]     ZIP: local header offset: 67404; data offset: 67480; file size: 640
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_ic_menu_overflow_material.xml
+[monodroid-assembly]     ZIP: local header offset: 67822; data offset: 67898; file size: 792
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_ic_search_api_material.xml
+[monodroid-assembly]     ZIP: local header offset: 68289; data offset: 68362; file size: 812
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_ic_voice_search_api_material.xml
+[monodroid-assembly]     ZIP: local header offset: 68815; data offset: 68894; file size: 828
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_item_background_holo_dark.xml
+[monodroid-assembly]     ZIP: local header offset: 69351; data offset: 69427; file size: 1012
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_item_background_holo_light.xml
+[monodroid-assembly]     ZIP: local header offset: 69746; data offset: 69823; file size: 1012
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-v21/abc_list_divider_material.xml
+[monodroid-assembly]     ZIP: local header offset: 70142; data offset: 70218; file size: 516
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.AsyncLayoutInflater.dll [External]
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_list_selector_background_transition_holo_dark.xml
+[monodroid-assembly]     ZIP: local header offset: 70464; data offset: 70560; file size: 424
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_list_selector_background_transition_holo_light.xml
+[monodroid-assembly]     ZIP: local header offset: 70760; data offset: 70857; file size: 424
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_list_selector_holo_dark.xml
+[monodroid-assembly]     ZIP: local header offset: 71057; data offset: 71131; file size: 1064
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_list_selector_holo_light.xml
+[monodroid-assembly]     ZIP: local header offset: 71470; data offset: 71545; file size: 1064
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_ratingbar_indicator_material.xml
+[monodroid-assembly]     ZIP: local header offset: 71883; data offset: 71962; file size: 704
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_ratingbar_material.xml
+[monodroid-assembly]     ZIP: local header offset: 72260; data offset: 72329; file size: 704
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_ratingbar_small_material.xml
+[monodroid-assembly]     ZIP: local header offset: 72627; data offset: 72702; file size: 704
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_seekbar_thumb_material.xml
+[monodroid-assembly]     ZIP: local header offset: 72999; data offset: 73072; file size: 1100
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_seekbar_tick_mark_material.xml
+[monodroid-assembly]     ZIP: local header offset: 73425; data offset: 73502; file size: 516
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_seekbar_track_material.xml
+[monodroid-assembly]     ZIP: local header offset: 73747; data offset: 73820; file size: 1408
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_spinner_textfield_background_material.xml
+[monodroid-assembly]     ZIP: local header offset: 74244; data offset: 74332; file size: 1160
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_switch_thumb_material.xml
+[monodroid-assembly]     ZIP: local header offset: 74741; data offset: 74813; file size: 464
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_tab_indicator_material.xml
+[monodroid-assembly]     ZIP: local header offset: 75043; data offset: 75116; file size: 468
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_text_cursor_material.xml
+[monodroid-assembly]     ZIP: local header offset: 75349; data offset: 75420; file size: 516
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_textfield_search_material.xml
+[monodroid-assembly]     ZIP: local header offset: 75661; data offset: 75737; file size: 756
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/abc_vector_test.xml
+[monodroid-assembly]     ZIP: local header offset: 76029; data offset: 76091; file size: 612
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/avd_hide_password.xml
+[monodroid-assembly]     ZIP: local header offset: 76423; data offset: 76487; file size: 660
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/avd_show_password.xml
+[monodroid-assembly]     ZIP: local header offset: 76784; data offset: 76848; file size: 660
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/btn_checkbox_checked_mtrl.xml
+[monodroid-assembly]     ZIP: local header offset: 77146; data offset: 77218; file size: 2688
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml
+[monodroid-assembly]     ZIP: local header offset: 78059; data offset: 78154; file size: 688
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/btn_checkbox_unchecked_mtrl.xml
+[monodroid-assembly]     ZIP: local header offset: 78458; data offset: 78532; file size: 2660
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml
+[monodroid-assembly]     ZIP: local header offset: 79363; data offset: 79458; file size: 688
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/btn_radio_off_mtrl.xml
+[monodroid-assembly]     ZIP: local header offset: 79757; data offset: 79822; file size: 1728
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/btn_radio_off_to_on_mtrl_animation.xml
+[monodroid-assembly]     ZIP: local header offset: 80526; data offset: 80607; file size: 680
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/btn_radio_on_mtrl.xml
+[monodroid-assembly]     ZIP: local header offset: 80907; data offset: 80971; file size: 1656
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/btn_radio_on_to_off_mtrl_animation.xml
+[monodroid-assembly]     ZIP: local header offset: 81651; data offset: 81732; file size: 680
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-v21/design_bottom_navigation_item_background.xml
+[monodroid-assembly]     ZIP: local header offset: 82031; data offset: 82122; file size: 264
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/design_fab_background.xml
+[monodroid-assembly]     ZIP: local header offset: 82275; data offset: 82343; file size: 372
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/design_ic_visibility.xml
+[monodroid-assembly]     ZIP: local header offset: 82527; data offset: 82594; file size: 540
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/design_ic_visibility_off.xml
+[monodroid-assembly]     ZIP: local header offset: 82873; data offset: 82944; file size: 1144
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/design_password_eye.xml
+[monodroid-assembly]     ZIP: local header offset: 83570; data offset: 83636; file size: 816
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/design_snackbar_background.xml
+[monodroid-assembly]     ZIP: local header offset: 83980; data offset: 84053; file size: 484
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/ic_mtrl_checked_circle.xml
+[monodroid-assembly]     ZIP: local header offset: 84276; data offset: 84345; file size: 672
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/ic_mtrl_chip_checked_black.xml
+[monodroid-assembly]     ZIP: local header offset: 84713; data offset: 84786; file size: 600
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/ic_mtrl_chip_checked_circle.xml
+[monodroid-assembly]     ZIP: local header offset: 85108; data offset: 85182; file size: 940
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/ic_mtrl_chip_close_circle.xml
+[monodroid-assembly]     ZIP: local header offset: 85630; data offset: 85702; file size: 808
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/material_ic_calendar_black_24dp.xml
+[monodroid-assembly]     ZIP: local header offset: 86107; data offset: 86185; file size: 696
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/material_ic_clear_black_24dp.xml
+[monodroid-assembly]     ZIP: local header offset: 86567; data offset: 86642; file size: 752
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/material_ic_edit_black_24dp.xml
+[monodroid-assembly]     ZIP: local header offset: 87018; data offset: 87092; file size: 716
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/material_ic_keyboard_arrow_left_black_24dp.xml
+[monodroid-assembly]     ZIP: local header offset: 87477; data offset: 87566; file size: 712
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/material_ic_keyboard_arrow_right_black_24dp.xml
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.Browser.dll [External]
+[monodroid-assembly]     ZIP: local header offset: 87940; data offset: 88030; file size: 700
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/material_ic_menu_arrow_down_black_24dp.xml
+[monodroid-assembly]     ZIP: local header offset: 88395; data offset: 88480; file size: 648
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/material_ic_menu_arrow_up_black_24dp.xml
+[monodroid-assembly]     ZIP: local header offset: 88815; data offset: 88898; file size: 648
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/mtrl_dialog_background.xml
+[monodroid-assembly]     ZIP: local header offset: 89232; data offset: 89301; file size: 716
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/mtrl_dropdown_arrow.xml
+[monodroid-assembly]     ZIP: local header offset: 89628; data offset: 89694; file size: 464
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/mtrl_ic_arrow_drop_down.xml
+[monodroid-assembly]     ZIP: local header offset: 89925; data offset: 89995; file size: 564
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/mtrl_ic_arrow_drop_up.xml
+[monodroid-assembly]     ZIP: local header offset: 90295; data offset: 90363; file size: 564
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/mtrl_ic_cancel.xml
+[monodroid-assembly]     ZIP: local header offset: 90662; data offset: 90723; file size: 724
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/mtrl_ic_error.xml
+[monodroid-assembly]     ZIP: local header offset: 91103; data offset: 91163; file size: 644
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/mtrl_popupmenu_background.xml
+[monodroid-assembly]     ZIP: local header offset: 91515; data offset: 91587; file size: 740
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/mtrl_popupmenu_background_dark.xml
+[monodroid-assembly]     ZIP: local header offset: 91911; data offset: 91988; file size: 740
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/mtrl_tabs_default_indicator.xml
+[monodroid-assembly]     ZIP: local header offset: 92312; data offset: 92386; file size: 628
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/navigation_empty_icon.xml
+[monodroid-assembly]     ZIP: local header offset: 92650; data offset: 92718; file size: 516
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-v21/notification_action_background.xml
+[monodroid-assembly]     ZIP: local header offset: 92963; data offset: 93044; file size: 1180
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/notification_bg.xml
+[monodroid-assembly]     ZIP: local header offset: 93513; data offset: 93575; file size: 532
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/notification_bg_low.xml
+[monodroid-assembly]     ZIP: local header offset: 93828; data offset: 93894; file size: 532
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/notification_icon_background.xml
+[monodroid-assembly]     ZIP: local header offset: 94147; data offset: 94222; file size: 372
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/notification_tile_bg.xml
+[monodroid-assembly]     ZIP: local header offset: 94407; data offset: 94474; file size: 304
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/test_custom_background.xml
+[monodroid-assembly]     ZIP: local header offset: 94647; data offset: 94716; file size: 336
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/tooltip_frame_dark.xml
+[monodroid-assembly]     ZIP: local header offset: 94891; data offset: 94956; file size: 484
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable/tooltip_frame_light.xml
+[monodroid-assembly]     ZIP: local header offset: 95182; data offset: 95248; file size: 484
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-watch-v20/abc_dialog_material_background.xml
+[monodroid-assembly]     ZIP: local header offset: 95474; data offset: 95561; file size: 372
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-v23/abc_control_background_material.xml
+[monodroid-assembly]     ZIP: local header offset: 95743; data offset: 95825; file size: 304
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-v23/mtrl_popupmenu_background_dark.xml
+[monodroid-assembly]     ZIP: local header offset: 95998; data offset: 96079; file size: 1228
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 96490; data offset: 96576; file size: 267
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[monodroid-assembly]     ZIP: local header offset: 96843; data offset: 96928; file size: 214
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[monodroid-assembly]     ZIP: local header offset: 97142; data offset: 97228; file size: 321
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[monodroid-assembly]     ZIP: local header offset: 97549; data offset: 97632; file size: 324
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[monodroid-assembly]     ZIP: local header offset: 97956; data offset: 98040; file size: 356
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[monodroid-assembly]     ZIP: local header offset: 98396; data offset: 98484; file size: 754
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[monodroid-assembly]     ZIP: local header offset: 99238; data offset: 99328; file size: 825
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 100153; data offset: 100244; file size: 216
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 100460; data offset: 100552; file size: 173
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 100725; data offset: 100812; file size: 133
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 100945; data offset: 101028; file size: 251
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 101279; data offset: 101368; file size: 152
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 101520; data offset: 101608; file size: 139
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 101747; data offset: 101832; file size: 270
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_ic_star_black_16dp.png
+[monodroid-assembly]     ZIP: local header offset: 102102; data offset: 102180; file size: 193
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_ic_star_black_36dp.png
+[monodroid-assembly]     ZIP: local header offset: 102373; data offset: 102452; file size: 364
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_ic_star_black_48dp.png
+[monodroid-assembly]     ZIP: local header offset: 102816; data offset: 102896; file size: 467
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png
+[monodroid-assembly]     ZIP: local header offset: 103363; data offset: 103448; file size: 146
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png
+[monodroid-assembly]     ZIP: local header offset: 103594; data offset: 103676; file size: 253
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_ic_star_half_black_48dp.png
+[monodroid-assembly]     ZIP: local header offset: 103929; data offset: 104012; file size: 310
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 104322; data offset: 104408; file size: 167
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_list_focused_holo.9.png
+[monodroid-assembly]     ZIP: local header offset: 104575; data offset: 104656; file size: 222
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_list_longpressed_holo.9.png
+[monodroid-assembly]     ZIP: local header offset: 104878; data offset: 104960; file size: 211
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png
+[monodroid-assembly]     ZIP: local header offset: 105171; data offset: 105256; file size: 207
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png
+[monodroid-assembly]     ZIP: local header offset: 105463; data offset: 105548; file size: 207
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[monodroid-assembly]     ZIP: local header offset: 105755; data offset: 105848; file size: 217
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[monodroid-assembly]     ZIP: local header offset: 106065; data offset: 106160; file size: 217
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[monodroid-assembly]     ZIP: local header offset: 106377; data offset: 106468; file size: 541
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_popup_background_mtrl_mult.9.png
+[monodroid-assembly]     ZIP: local header offset: 107009; data offset: 107096; file size: 776
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.CardView.dll [External]
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 107872; data offset: 107964; file size: 159
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[monodroid-assembly]     ZIP: local header offset: 108123; data offset: 108220; file size: 145
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[monodroid-assembly]     ZIP: local header offset: 108365; data offset: 108460; file size: 197
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 108657; data offset: 108748; file size: 203
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 108951; data offset: 109040; file size: 194
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 109234; data offset: 109316; file size: 327
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 109643; data offset: 109728; file size: 395
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 110123; data offset: 110208; file size: 186
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_text_select_handle_left_mtrl_dark.png
+[monodroid-assembly]     ZIP: local header offset: 110394; data offset: 110488; file size: 203
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_text_select_handle_left_mtrl_light.png
+[monodroid-assembly]     ZIP: local header offset: 110691; data offset: 110784; file size: 203
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_text_select_handle_middle_mtrl_dark.png
+[monodroid-assembly]     ZIP: local header offset: 110987; data offset: 111084; file size: 311
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_text_select_handle_middle_mtrl_light.png
+[monodroid-assembly]     ZIP: local header offset: 111395; data offset: 111492; file size: 310
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_dark.png
+[monodroid-assembly]     ZIP: local header offset: 111802; data offset: 111896; file size: 187
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_text_select_handle_right_mtrl_light.png
+[monodroid-assembly]     ZIP: local header offset: 112083; data offset: 112180; file size: 186
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 112366; data offset: 112460; file size: 181
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 112641; data offset: 112732; file size: 178
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 112910; data offset: 113008; file size: 178
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 113186; data offset: 113284; file size: 178
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/notification_bg_low_normal.9.png
+[monodroid-assembly]     ZIP: local header offset: 113462; data offset: 113548; file size: 215
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/notification_bg_low_pressed.9.png
+[monodroid-assembly]     ZIP: local header offset: 113763; data offset: 113848; file size: 223
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/notification_bg_normal.9.png
+[monodroid-assembly]     ZIP: local header offset: 114071; data offset: 114152; file size: 215
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png
+[monodroid-assembly]     ZIP: local header offset: 114367; data offset: 114456; file size: 223
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png
+[monodroid-assembly]     ZIP: local header offset: 114679; data offset: 114768; file size: 98
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-ldrtl-mdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 114866; data offset: 114960; file size: 127
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-ldrtl-mdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 115087; data offset: 115176; file size: 253
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 115429; data offset: 115520; file size: 318
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 115838; data offset: 115924; file size: 272
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[monodroid-assembly]     ZIP: local header offset: 116196; data offset: 116280; file size: 227
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[monodroid-assembly]     ZIP: local header offset: 116507; data offset: 116592; file size: 404
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[monodroid-assembly]     ZIP: local header offset: 116996; data offset: 117080; file size: 464
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[monodroid-assembly]     ZIP: local header offset: 117544; data offset: 117628; file size: 563
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[monodroid-assembly]     ZIP: local header offset: 118191; data offset: 118280; file size: 1096
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[monodroid-assembly]     ZIP: local header offset: 119376; data offset: 119464; file size: 1243
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 120707; data offset: 120800; file size: 226
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 121026; data offset: 121116; file size: 171
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 121287; data offset: 121372; file size: 202
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 121574; data offset: 121656; file size: 404
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 122060; data offset: 122148; file size: 226
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 122374; data offset: 122464; file size: 215
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 122679; data offset: 122764; file size: 389
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_ic_star_black_16dp.png
+[monodroid-assembly]     ZIP: local header offset: 123153; data offset: 123232; file size: 263
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_ic_star_black_36dp.png
+[monodroid-assembly]     ZIP: local header offset: 123495; data offset: 123572; file size: 522
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_ic_star_black_48dp.png
+[monodroid-assembly]     ZIP: local header offset: 124094; data offset: 124172; file size: 668
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_ic_star_half_black_16dp.png
+[monodroid-assembly]     ZIP: local header offset: 124840; data offset: 124924; file size: 197
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_ic_star_half_black_36dp.png
+[monodroid-assembly]     ZIP: local header offset: 125121; data offset: 125204; file size: 328
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_ic_star_half_black_48dp.png
+[monodroid-assembly]     ZIP: local header offset: 125532; data offset: 125616; file size: 431
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 126047; data offset: 126132; file size: 167
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_list_focused_holo.9.png
+[monodroid-assembly]     ZIP: local header offset: 126299; data offset: 126380; file size: 244
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png
+[monodroid-assembly]     ZIP: local header offset: 126624; data offset: 126708; file size: 212
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png
+[monodroid-assembly]     ZIP: local header offset: 126920; data offset: 127004; file size: 208
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_list_pressed_holo_light.9.png
+[monodroid-assembly]     ZIP: local header offset: 127212; data offset: 127296; file size: 208
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[monodroid-assembly]     ZIP: local header offset: 127504; data offset: 127600; file size: 228
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[monodroid-assembly]     ZIP: local header offset: 127828; data offset: 127924; file size: 229
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[monodroid-assembly]     ZIP: local header offset: 128153; data offset: 128244; file size: 738
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_popup_background_mtrl_mult.9.png
+[monodroid-assembly]     ZIP: local header offset: 128982; data offset: 129072; file size: 1098
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 130170; data offset: 130260; file size: 201
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[monodroid-assembly]     ZIP: local header offset: 130461; data offset: 130556; file size: 196
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[monodroid-assembly]     ZIP: local header offset: 130752; data offset: 130848; file size: 272
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 131120; data offset: 131208; file size: 205
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 131413; data offset: 131500; file size: 196
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 131696; data offset: 131780; file size: 345
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 132125; data offset: 132212; file size: 484
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 132696; data offset: 132784; file size: 190
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_text_select_handle_left_mtrl_dark.png
+[monodroid-assembly]     ZIP: local header offset: 132974; data offset: 133068; file size: 278
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.Collection.dll [External]
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_text_select_handle_left_mtrl_light.png
+[monodroid-assembly]     ZIP: local header offset: 133346; data offset: 133440; file size: 278
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_dark.png
+[monodroid-assembly]     ZIP: local header offset: 133718; data offset: 133812; file size: 398
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_text_select_handle_middle_mtrl_light.png
+[monodroid-assembly]     ZIP: local header offset: 134210; data offset: 134308; file size: 396
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_text_select_handle_right_mtrl_dark.png
+[monodroid-assembly]     ZIP: local header offset: 134704; data offset: 134800; file size: 263
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_text_select_handle_right_mtrl_light.png
+[monodroid-assembly]     ZIP: local header offset: 135063; data offset: 135160; file size: 262
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 135422; data offset: 135516; file size: 186
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 135702; data offset: 135792; file size: 192
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 135984; data offset: 136084; file size: 178
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 136262; data offset: 136360; file size: 178
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/notification_bg_low_normal.9.png
+[monodroid-assembly]     ZIP: local header offset: 136538; data offset: 136624; file size: 212
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/notification_bg_low_pressed.9.png
+[monodroid-assembly]     ZIP: local header offset: 136836; data offset: 136920; file size: 225
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/notification_bg_normal.9.png
+[monodroid-assembly]     ZIP: local header offset: 137145; data offset: 137224; file size: 212
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png
+[monodroid-assembly]     ZIP: local header offset: 137436; data offset: 137524; file size: 225
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png
+[monodroid-assembly]     ZIP: local header offset: 137749; data offset: 137840; file size: 107
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-ldrtl-hdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 137947; data offset: 138040; file size: 199
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-ldrtl-hdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 138239; data offset: 138328; file size: 400
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-ldrtl-hdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 138728; data offset: 138820; file size: 345
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 139165; data offset: 139252; file size: 280
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[monodroid-assembly]     ZIP: local header offset: 139532; data offset: 139616; file size: 281
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[monodroid-assembly]     ZIP: local header offset: 139897; data offset: 139984; file size: 432
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[monodroid-assembly]     ZIP: local header offset: 140416; data offset: 140500; file size: 651
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[monodroid-assembly]     ZIP: local header offset: 141151; data offset: 141236; file size: 785
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[monodroid-assembly]     ZIP: local header offset: 142021; data offset: 142112; file size: 1526
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[monodroid-assembly]     ZIP: local header offset: 143638; data offset: 143728; file size: 1731
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 145459; data offset: 145552; file size: 229
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 145781; data offset: 145872; file size: 228
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 146100; data offset: 146188; file size: 178
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 146366; data offset: 146448; file size: 492
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 146940; data offset: 147028; file size: 243
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 147271; data offset: 147360; file size: 183
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 147543; data offset: 147628; file size: 480
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_ic_star_black_16dp.png
+[monodroid-assembly]     ZIP: local header offset: 148108; data offset: 148188; file size: 333
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_ic_star_black_36dp.png
+[monodroid-assembly]     ZIP: local header offset: 148521; data offset: 148600; file size: 652
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_ic_star_black_48dp.png
+[monodroid-assembly]     ZIP: local header offset: 149252; data offset: 149332; file size: 887
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png
+[monodroid-assembly]     ZIP: local header offset: 150219; data offset: 150304; file size: 235
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_ic_star_half_black_36dp.png
+[monodroid-assembly]     ZIP: local header offset: 150539; data offset: 150624; file size: 421
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_ic_star_half_black_48dp.png
+[monodroid-assembly]     ZIP: local header offset: 151045; data offset: 151128; file size: 548
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 151676; data offset: 151764; file size: 167
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_list_focused_holo.9.png
+[monodroid-assembly]     ZIP: local header offset: 151931; data offset: 152012; file size: 244
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_list_longpressed_holo.9.png
+[monodroid-assembly]     ZIP: local header offset: 152256; data offset: 152340; file size: 214
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png
+[monodroid-assembly]     ZIP: local header offset: 152554; data offset: 152640; file size: 209
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png
+[monodroid-assembly]     ZIP: local header offset: 152849; data offset: 152936; file size: 209
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[monodroid-assembly]     ZIP: local header offset: 153145; data offset: 153240; file size: 236
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[monodroid-assembly]     ZIP: local header offset: 153476; data offset: 153572; file size: 235
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[monodroid-assembly]     ZIP: local header offset: 153807; data offset: 153900; file size: 966
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_popup_background_mtrl_mult.9.png
+[monodroid-assembly]     ZIP: local header offset: 154866; data offset: 154956; file size: 1544
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.CoordinatorLayout.dll [External]
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 156500; data offset: 156592; file size: 267
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[monodroid-assembly]     ZIP: local header offset: 156859; data offset: 156956; file size: 267
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[monodroid-assembly]     ZIP: local header offset: 157223; data offset: 157320; file size: 391
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 157711; data offset: 157800; file size: 208
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 158008; data offset: 158096; file size: 198
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 158294; data offset: 158380; file size: 448
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 158828; data offset: 158916; file size: 618
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 159534; data offset: 159620; file size: 194
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_text_select_handle_left_mtrl_dark.png
+[monodroid-assembly]     ZIP: local header offset: 159814; data offset: 159908; file size: 336
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_text_select_handle_left_mtrl_light.png
+[monodroid-assembly]     ZIP: local header offset: 160244; data offset: 160340; file size: 335
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png
+[monodroid-assembly]     ZIP: local header offset: 160675; data offset: 160772; file size: 583
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_text_select_handle_middle_mtrl_light.png
+[monodroid-assembly]     ZIP: local header offset: 161355; data offset: 161452; file size: 585
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_text_select_handle_right_mtrl_dark.png
+[monodroid-assembly]     ZIP: local header offset: 162037; data offset: 162132; file size: 319
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_text_select_handle_right_mtrl_light.png
+[monodroid-assembly]     ZIP: local header offset: 162451; data offset: 162548; file size: 318
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 162866; data offset: 162960; file size: 189
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 163149; data offset: 163240; file size: 187
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 163427; data offset: 163528; file size: 184
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 163712; data offset: 163812; file size: 182
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/notification_bg_low_normal.9.png
+[monodroid-assembly]     ZIP: local header offset: 163994; data offset: 164080; file size: 221
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png
+[monodroid-assembly]     ZIP: local header offset: 164301; data offset: 164388; file size: 252
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/notification_bg_normal.9.png
+[monodroid-assembly]     ZIP: local header offset: 164640; data offset: 164720; file size: 221
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png
+[monodroid-assembly]     ZIP: local header offset: 164941; data offset: 165032; file size: 247
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png
+[monodroid-assembly]     ZIP: local header offset: 165279; data offset: 165368; file size: 138
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 165506; data offset: 165600; file size: 178
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-ldrtl-xhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 165778; data offset: 165868; file size: 494
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-ldrtl-xhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 166362; data offset: 166452; file size: 417
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 166869; data offset: 166956; file size: 286
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[monodroid-assembly]     ZIP: local header offset: 167242; data offset: 167328; file size: 307
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[monodroid-assembly]     ZIP: local header offset: 167635; data offset: 167720; file size: 593
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[monodroid-assembly]     ZIP: local header offset: 168313; data offset: 168400; file size: 984
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[monodroid-assembly]     ZIP: local header offset: 169384; data offset: 169472; file size: 1208
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[monodroid-assembly]     ZIP: local header offset: 170680; data offset: 170772; file size: 2463
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[monodroid-assembly]     ZIP: local header offset: 173235; data offset: 173328; file size: 2834
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 176162; data offset: 176256; file size: 237
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 176493; data offset: 176588; file size: 224
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.Core.dll [External]
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 176812; data offset: 176900; file size: 263
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 177163; data offset: 177248; file size: 710
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 177958; data offset: 178048; file size: 348
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 178396; data offset: 178488; file size: 262
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 178750; data offset: 178836; file size: 700
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_ic_star_black_16dp.png
+[monodroid-assembly]     ZIP: local header offset: 179536; data offset: 179616; file size: 459
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_ic_star_black_36dp.png
+[monodroid-assembly]     ZIP: local header offset: 180075; data offset: 180156; file size: 983
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_ic_star_black_48dp.png
+[monodroid-assembly]     ZIP: local header offset: 181139; data offset: 181220; file size: 1291
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_ic_star_half_black_16dp.png
+[monodroid-assembly]     ZIP: local header offset: 182511; data offset: 182596; file size: 309
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_ic_star_half_black_36dp.png
+[monodroid-assembly]     ZIP: local header offset: 182905; data offset: 182992; file size: 577
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png
+[monodroid-assembly]     ZIP: local header offset: 183569; data offset: 183656; file size: 789
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_list_divider_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 184445; data offset: 184532; file size: 171
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_list_focused_holo.9.png
+[monodroid-assembly]     ZIP: local header offset: 184703; data offset: 184784; file size: 245
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_list_longpressed_holo.9.png
+[monodroid-assembly]     ZIP: local header offset: 185029; data offset: 185116; file size: 221
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_list_pressed_holo_dark.9.png
+[monodroid-assembly]     ZIP: local header offset: 185337; data offset: 185424; file size: 212
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png
+[monodroid-assembly]     ZIP: local header offset: 185636; data offset: 185724; file size: 212
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_dark.9.png
+[monodroid-assembly]     ZIP: local header offset: 185936; data offset: 186032; file size: 260
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_list_selector_disabled_holo_light.9.png
+[monodroid-assembly]     ZIP: local header offset: 186292; data offset: 186388; file size: 258
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png
+[monodroid-assembly]     ZIP: local header offset: 186646; data offset: 186740; file size: 1779
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png
+[monodroid-assembly]     ZIP: local header offset: 188519; data offset: 188608; file size: 2305
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 190913; data offset: 191008; file size: 322
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[monodroid-assembly]     ZIP: local header offset: 191330; data offset: 191428; file size: 403
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[monodroid-assembly]     ZIP: local header offset: 191831; data offset: 191928; file size: 595
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 192523; data offset: 192616; file size: 210
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_scrubber_track_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 192826; data offset: 192916; file size: 207
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 193123; data offset: 193208; file size: 524
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 193732; data offset: 193820; file size: 851
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 194671; data offset: 194760; file size: 204
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png
+[monodroid-assembly]     ZIP: local header offset: 194964; data offset: 195060; file size: 420
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_text_select_handle_left_mtrl_light.png
+[monodroid-assembly]     ZIP: local header offset: 195480; data offset: 195576; file size: 420
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_dark.png
+[monodroid-assembly]     ZIP: local header offset: 195996; data offset: 196092; file size: 752
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_text_select_handle_middle_mtrl_light.png
+[monodroid-assembly]     ZIP: local header offset: 196844; data offset: 196944; file size: 753
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png
+[monodroid-assembly]     ZIP: local header offset: 197697; data offset: 197792; file size: 422
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_text_select_handle_right_mtrl_light.png
+[monodroid-assembly]     ZIP: local header offset: 198214; data offset: 198312; file size: 422
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.CursorAdapter.dll [External]
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 198734; data offset: 198828; file size: 199
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 199027; data offset: 199120; file size: 200
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 199320; data offset: 199420; file size: 187
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 199607; data offset: 199708; file size: 186
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 199894; data offset: 199988; file size: 260
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-ldrtl-xxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 200248; data offset: 200340; file size: 705
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-ldrtl-xxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 201045; data offset: 201136; file size: 525
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_000.png
+[monodroid-assembly]     ZIP: local header offset: 201661; data offset: 201748; file size: 275
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxxhdpi-v4/abc_btn_check_to_on_mtrl_015.png
+[monodroid-assembly]     ZIP: local header offset: 202023; data offset: 202112; file size: 476
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png
+[monodroid-assembly]     ZIP: local header offset: 202588; data offset: 202676; file size: 785
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_015.png
+[monodroid-assembly]     ZIP: local header offset: 203461; data offset: 203548; file size: 946
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
+[monodroid-assembly]     ZIP: local header offset: 204494; data offset: 204588; file size: 2505
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxxhdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
+[monodroid-assembly]     ZIP: local header offset: 207093; data offset: 207184; file size: 2816
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 210000; data offset: 210088; file size: 327
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 210415; data offset: 210500; file size: 910
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 211410; data offset: 211500; file size: 461
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 211961; data offset: 212052; file size: 305
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxxhdpi-v4/abc_ic_menu_share_mtrl_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 212357; data offset: 212444; file size: 899
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png
+[monodroid-assembly]     ZIP: local header offset: 213343; data offset: 213424; file size: 599
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png
+[monodroid-assembly]     ZIP: local header offset: 214023; data offset: 214104; file size: 1269
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxxhdpi-v4/abc_ic_star_black_48dp.png
+[monodroid-assembly]     ZIP: local header offset: 215373; data offset: 215456; file size: 1680
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxxhdpi-v4/abc_ic_star_half_black_16dp.png
+[monodroid-assembly]     ZIP: local header offset: 217136; data offset: 217224; file size: 376
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png
+[monodroid-assembly]     ZIP: local header offset: 217600; data offset: 217688; file size: 760
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxxhdpi-v4/abc_ic_star_half_black_48dp.png
+[monodroid-assembly]     ZIP: local header offset: 218448; data offset: 218536; file size: 991
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_000.png
+[monodroid-assembly]     ZIP: local header offset: 219527; data offset: 219628; file size: 415
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png
+[monodroid-assembly]     ZIP: local header offset: 220043; data offset: 220144; file size: 631
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 220775; data offset: 220860; file size: 430
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 221290; data offset: 221380; file size: 813
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 222193; data offset: 222284; file size: 202
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl_dark.png
+[monodroid-assembly]     ZIP: local header offset: 222486; data offset: 222584; file size: 513
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxxhdpi-v4/abc_text_select_handle_left_mtrl_light.png
+[monodroid-assembly]     ZIP: local header offset: 223097; data offset: 223196; file size: 513
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxxhdpi-v4/abc_text_select_handle_right_mtrl_dark.png
+[monodroid-assembly]     ZIP: local header offset: 223709; data offset: 223808; file size: 513
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-xxxhdpi-v4/abc_text_select_handle_right_mtrl_light.png
+[monodroid-assembly]     ZIP: local header offset: 224321; data offset: 224420; file size: 513
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_copy_mtrl_am_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 224933; data offset: 225028; file size: 325
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-ldrtl-xxxhdpi-v17/abc_ic_menu_cut_mtrl_alpha.png
+[monodroid-assembly]     ZIP: local header offset: 225353; data offset: 225444; file size: 905
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png
+[monodroid-assembly]     ZIP: local header offset: 226349; data offset: 226444; file size: 437
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0.xml
+[monodroid-assembly]     ZIP: local header offset: 226881; data offset: 226982; file size: 316
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1.xml
+[monodroid-assembly]     ZIP: local header offset: 227169; data offset: 227270; file size: 328
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml
+[monodroid-assembly]     ZIP: local header offset: 227459; data offset: 227562; file size: 316
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml
+[monodroid-assembly]     ZIP: local header offset: 227749; data offset: 227852; file size: 328
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/interpolator/btn_radio_to_off_mtrl_animation_interpolator_0.xml
+[monodroid-assembly]     ZIP: local header offset: 228041; data offset: 228138; file size: 320
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/interpolator/btn_radio_to_on_mtrl_animation_interpolator_0.xml
+[monodroid-assembly]     ZIP: local header offset: 228327; data offset: 228423; file size: 320
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/interpolator/fast_out_slow_in.xml
+[monodroid-assembly]     ZIP: local header offset: 228612; data offset: 228679; file size: 400
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/interpolator-v21/mtrl_fast_out_linear_in.xml
+[monodroid-assembly]     ZIP: local header offset: 228893; data offset: 228971; file size: 400
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/interpolator-v21/mtrl_fast_out_slow_in.xml
+[monodroid-assembly]     ZIP: local header offset: 229182; data offset: 229258; file size: 400
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/interpolator/mtrl_linear.xml
+[monodroid-assembly]     ZIP: local header offset: 229472; data offset: 229534; file size: 132
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/interpolator-v21/mtrl_linear_out_slow_in.xml
+[monodroid-assembly]     ZIP: local header offset: 229609; data offset: 229687; file size: 400
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/abc_action_bar_title_item.xml
+[monodroid-assembly]     ZIP: local header offset: 229898; data offset: 229968; file size: 872
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/abc_action_bar_up_container.xml
+[monodroid-assembly]     ZIP: local header offset: 230355; data offset: 230427; file size: 440
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/abc_action_menu_item_layout.xml
+[monodroid-assembly]     ZIP: local header offset: 230677; data offset: 230749; file size: 768
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.CustomView.dll [External]
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/abc_action_menu_layout.xml
+[monodroid-assembly]     ZIP: local header offset: 231142; data offset: 231209; file size: 576
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/abc_action_mode_bar.xml
+[monodroid-assembly]     ZIP: local header offset: 231507; data offset: 231571; file size: 464
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/abc_action_mode_close_item_material.xml
+[monodroid-assembly]     ZIP: local header offset: 231839; data offset: 231919; file size: 840
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/abc_activity_chooser_view.xml
+[monodroid-assembly]     ZIP: local header offset: 232343; data offset: 232413; file size: 1684
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/abc_activity_chooser_view_list_item.xml
+[monodroid-assembly]     ZIP: local header offset: 233008; data offset: 233088; file size: 1304
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/abc_alert_dialog_button_bar_material.xml
+[monodroid-assembly]     ZIP: local header offset: 233658; data offset: 233739; file size: 1536
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout-v22/abc_alert_dialog_button_bar_material.xml
+[monodroid-assembly]     ZIP: local header offset: 234321; data offset: 234406; file size: 1584
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/abc_alert_dialog_material.xml
+[monodroid-assembly]     ZIP: local header offset: 235016; data offset: 235086; file size: 2476
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/abc_alert_dialog_title_material.xml
+[monodroid-assembly]     ZIP: local header offset: 235859; data offset: 235935; file size: 1560
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/abc_cascading_menu_item_layout.xml
+[monodroid-assembly]     ZIP: local header offset: 236578; data offset: 236653; file size: 1868
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/abc_dialog_title_material.xml
+[monodroid-assembly]     ZIP: local header offset: 237362; data offset: 237432; file size: 1116
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/abc_expanded_menu_layout.xml
+[monodroid-assembly]     ZIP: local header offset: 237956; data offset: 238025; file size: 388
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/abc_list_menu_item_checkbox.xml
+[monodroid-assembly]     ZIP: local header offset: 238257; data offset: 238329; file size: 528
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/abc_list_menu_item_icon.xml
+[monodroid-assembly]     ZIP: local header offset: 238613; data offset: 238681; file size: 684
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/abc_list_menu_item_layout.xml
+[monodroid-assembly]     ZIP: local header offset: 239034; data offset: 239104; file size: 1396
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/abc_list_menu_item_radio.xml
+[monodroid-assembly]     ZIP: local header offset: 239701; data offset: 239770; file size: 532
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/abc_popup_menu_header_item_layout.xml
+[monodroid-assembly]     ZIP: local header offset: 240057; data offset: 240135; file size: 848
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/abc_popup_menu_item_layout.xml
+[monodroid-assembly]     ZIP: local header offset: 240567; data offset: 240638; file size: 2072
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/abc_screen_content_include.xml
+[monodroid-assembly]     ZIP: local header offset: 241442; data offset: 241513; file size: 548
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/abc_screen_simple.xml
+[monodroid-assembly]     ZIP: local header offset: 241809; data offset: 241871; file size: 832
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/abc_screen_simple_overlay_action_mode.xml
+[monodroid-assembly]     ZIP: local header offset: 242264; data offset: 242346; file size: 792
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/abc_screen_toolbar.xml
+[monodroid-assembly]     ZIP: local header offset: 242720; data offset: 242783; file size: 1504
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/abc_search_dropdown_item_icons_2line.xml
+[monodroid-assembly]     ZIP: local header offset: 243403; data offset: 243484; file size: 1916
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/abc_search_view.xml
+[monodroid-assembly]     ZIP: local header offset: 244149; data offset: 244209; file size: 3472
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/abc_select_dialog_material.xml
+[monodroid-assembly]     ZIP: local header offset: 245311; data offset: 245382; file size: 1020
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/abc_tooltip.xml
+[monodroid-assembly]     ZIP: local header offset: 245916; data offset: 245972; file size: 1056
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/bottomtablayout.xml
+[monodroid-assembly]     ZIP: local header offset: 246469; data offset: 246529; file size: 832
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/browser_actions_context_menu_page.xml
+[monodroid-assembly]     ZIP: local header offset: 246902; data offset: 246980; file size: 1660
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/browser_actions_context_menu_row.xml
+[monodroid-assembly]     ZIP: local header offset: 247673; data offset: 247750; file size: 1212
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/custom_dialog.xml
+[monodroid-assembly]     ZIP: local header offset: 248306; data offset: 248364; file size: 612
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/design_bottom_navigation_item.xml
+[monodroid-assembly]     ZIP: local header offset: 248671; data offset: 248745; file size: 1508
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/design_bottom_sheet_dialog.xml
+[monodroid-assembly]     ZIP: local header offset: 249347; data offset: 249418; file size: 1224
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/design_layout_snackbar.xml
+[monodroid-assembly]     ZIP: local header offset: 249932; data offset: 249999; file size: 528
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/design_layout_snackbar_include.xml
+[monodroid-assembly]     ZIP: local header offset: 250300; data offset: 250375; file size: 1444
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/design_layout_tab_icon.xml
+[monodroid-assembly]     ZIP: local header offset: 251042; data offset: 251109; file size: 408
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/design_layout_tab_text.xml
+[monodroid-assembly]     ZIP: local header offset: 251344; data offset: 251411; file size: 436
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/design_menu_item_action_area.xml
+[monodroid-assembly]     ZIP: local header offset: 251658; data offset: 251731; file size: 320
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/design_navigation_item.xml
+[monodroid-assembly]     ZIP: local header offset: 251919; data offset: 251986; file size: 576
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/design_navigation_item_header.xml
+[monodroid-assembly]     ZIP: local header offset: 252309; data offset: 252383; file size: 440
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/design_navigation_item_separator.xml
+[monodroid-assembly]     ZIP: local header offset: 252636; data offset: 252713; file size: 472
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/design_navigation_item_subheader.xml
+[monodroid-assembly]     ZIP: local header offset: 252958; data offset: 253035; file size: 564
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/design_navigation_menu.xml
+[monodroid-assembly]     ZIP: local header offset: 253352; data offset: 253419; file size: 528
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/design_navigation_menu_item.xml
+[monodroid-assembly]     ZIP: local header offset: 253723; data offset: 253795; file size: 856
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/design_text_input_end_icon.xml
+[monodroid-assembly]     ZIP: local header offset: 254228; data offset: 254299; file size: 616
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/design_text_input_start_icon.xml
+[monodroid-assembly]     ZIP: local header offset: 254638; data offset: 254711; file size: 612
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/fallbacktabbardonotuse.xml
+[monodroid-assembly]     ZIP: local header offset: 255049; data offset: 255116; file size: 692
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/fallbacktoolbardonotuse.xml
+[monodroid-assembly]     ZIP: local header offset: 255478; data offset: 255546; file size: 496
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/flyoutcontent.xml
+[monodroid-assembly]     ZIP: local header offset: 255828; data offset: 255886; file size: 776
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/mtrl_alert_dialog.xml
+[monodroid-assembly]     ZIP: local header offset: 256267; data offset: 256329; file size: 2476
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/mtrl_alert_dialog_actions.xml
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.DocumentFile.dll [External]
+[monodroid-assembly]     ZIP: local header offset: 257104; data offset: 257174; file size: 1620
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout-v22/mtrl_alert_dialog_actions.xml
+[monodroid-assembly]     ZIP: local header offset: 257781; data offset: 257855; file size: 1764
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/mtrl_alert_dialog_title.xml
+[monodroid-assembly]     ZIP: local header offset: 258536; data offset: 258604; file size: 956
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/mtrl_alert_select_dialog_item.xml
+[monodroid-assembly]     ZIP: local header offset: 259015; data offset: 259089; file size: 588
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/mtrl_alert_select_dialog_multichoice.xml
+[monodroid-assembly]     ZIP: local header offset: 259409; data offset: 259490; file size: 940
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/mtrl_alert_select_dialog_singlechoice.xml
+[monodroid-assembly]     ZIP: local header offset: 259962; data offset: 260044; file size: 940
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/mtrl_calendar_day.xml
+[monodroid-assembly]     ZIP: local header offset: 260516; data offset: 260578; file size: 352
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/mtrl_calendar_day_of_week.xml
+[monodroid-assembly]     ZIP: local header offset: 260787; data offset: 260857; file size: 400
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/mtrl_calendar_days_of_week.xml
+[monodroid-assembly]     ZIP: local header offset: 261096; data offset: 261167; file size: 436
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/mtrl_calendar_horizontal.xml
+[monodroid-assembly]     ZIP: local header offset: 261425; data offset: 261494; file size: 1176
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/mtrl_calendar_month.xml
+[monodroid-assembly]     ZIP: local header offset: 261936; data offset: 262000; file size: 688
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/mtrl_calendar_month_labeled.xml
+[monodroid-assembly]     ZIP: local header offset: 262386; data offset: 262458; file size: 728
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/mtrl_calendar_month_navigation.xml
+[monodroid-assembly]     ZIP: local header offset: 262826; data offset: 262901; file size: 1676
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/mtrl_calendar_months.xml
+[monodroid-assembly]     ZIP: local header offset: 263529; data offset: 263594; file size: 428
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/mtrl_calendar_vertical.xml
+[monodroid-assembly]     ZIP: local header offset: 263838; data offset: 263905; file size: 740
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/mtrl_calendar_year.xml
+[monodroid-assembly]     ZIP: local header offset: 264245; data offset: 264308; file size: 352
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/mtrl_layout_snackbar.xml
+[monodroid-assembly]     ZIP: local header offset: 264516; data offset: 264581; file size: 492
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/mtrl_layout_snackbar_include.xml
+[monodroid-assembly]     ZIP: local header offset: 264860; data offset: 264933; file size: 1052
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/mtrl_picker_actions.xml
+[monodroid-assembly]     ZIP: local header offset: 265423; data offset: 265487; file size: 944
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/mtrl_picker_dialog.xml
+[monodroid-assembly]     ZIP: local header offset: 265887; data offset: 265950; file size: 1140
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/mtrl_picker_fullscreen.xml
+[monodroid-assembly]     ZIP: local header offset: 266413; data offset: 266480; file size: 848
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/mtrl_picker_header_dialog.xml
+[monodroid-assembly]     ZIP: local header offset: 266870; data offset: 266940; file size: 1440
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/mtrl_picker_header_fullscreen.xml
+[monodroid-assembly]     ZIP: local header offset: 267506; data offset: 267580; file size: 2768
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/mtrl_picker_header_selection_text.xml
+[monodroid-assembly]     ZIP: local header offset: 268585; data offset: 268663; file size: 712
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/mtrl_picker_header_title_text.xml
+[monodroid-assembly]     ZIP: local header offset: 269029; data offset: 269103; file size: 624
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/mtrl_picker_header_toggle.xml
+[monodroid-assembly]     ZIP: local header offset: 269425; data offset: 269495; file size: 576
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/mtrl_picker_text_input_date.xml
+[monodroid-assembly]     ZIP: local header offset: 269817; data offset: 269889; file size: 984
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/mtrl_picker_text_input_date_range.xml
+[monodroid-assembly]     ZIP: local header offset: 270327; data offset: 270405; file size: 1460
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout-v21/notification_action.xml
+[monodroid-assembly]     ZIP: local header offset: 270936; data offset: 271004; file size: 1052
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout-v21/notification_action_tombstone.xml
+[monodroid-assembly]     ZIP: local header offset: 271493; data offset: 271571; file size: 1228
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/notification_media_action.xml
+[monodroid-assembly]     ZIP: local header offset: 272109; data offset: 272179; file size: 564
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/notification_media_cancel_action.xml
+[monodroid-assembly]     ZIP: local header offset: 272481; data offset: 272558; file size: 744
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/notification_template_big_media.xml
+[monodroid-assembly]     ZIP: local header offset: 272931; data offset: 273007; file size: 1696
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/notification_template_big_media_custom.xml
+[monodroid-assembly]     ZIP: local header offset: 273650; data offset: 273733; file size: 3044
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/notification_template_big_media_narrow.xml
+[monodroid-assembly]     ZIP: local header offset: 274724; data offset: 274807; file size: 1824
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/notification_template_big_media_narrow_custom.xml
+[monodroid-assembly]     ZIP: local header offset: 275469; data offset: 275559; file size: 3216
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout-v21/notification_template_custom_big.xml
+[monodroid-assembly]     ZIP: local header offset: 276594; data offset: 276675; file size: 2456
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout-v21/notification_template_icon_group.xml
+[monodroid-assembly]     ZIP: local header offset: 277468; data offset: 277549; file size: 988
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/notification_template_lines_media.xml
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.DrawerLayout.dll [External]
+[monodroid-assembly]     ZIP: local header offset: 277969; data offset: 278047; file size: 2872
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/notification_template_media.xml
+[monodroid-assembly]     ZIP: local header offset: 278852; data offset: 278924; file size: 1292
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/notification_template_media_custom.xml
+[monodroid-assembly]     ZIP: local header offset: 279433; data offset: 279512; file size: 2756
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/notification_template_part_chronometer.xml
+[monodroid-assembly]     ZIP: local header offset: 280409; data offset: 280492; file size: 440
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/notification_template_part_time.xml
+[monodroid-assembly]     ZIP: local header offset: 280751; data offset: 280827; file size: 440
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/rootlayout.xml
+[monodroid-assembly]     ZIP: local header offset: 281089; data offset: 281144; file size: 1352
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/select_dialog_item_material.xml
+[monodroid-assembly]     ZIP: local header offset: 281685; data offset: 281757; file size: 640
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/select_dialog_multichoice_material.xml
+[monodroid-assembly]     ZIP: local header offset: 282108; data offset: 282187; file size: 864
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/select_dialog_singlechoice_material.xml
+[monodroid-assembly]     ZIP: local header offset: 282632; data offset: 282712; file size: 864
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/shellcontent.xml
+[monodroid-assembly]     ZIP: local header offset: 283157; data offset: 283214; file size: 888
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/support_simple_spinner_dropdown_item.xml
+[monodroid-assembly]     ZIP: local header offset: 283593; data offset: 283674; file size: 464
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/tabbar.xml
+[monodroid-assembly]     ZIP: local header offset: 283943; data offset: 283994; file size: 692
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/test_action_chip.xml
+[monodroid-assembly]     ZIP: local header offset: 284356; data offset: 284417; file size: 488
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/test_chip_zero_corner_radius.xml
+[monodroid-assembly]     ZIP: local header offset: 284695; data offset: 284768; file size: 640
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/test_design_checkbox.xml
+[monodroid-assembly]     ZIP: local header offset: 285102; data offset: 285167; file size: 836
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/test_design_radiobutton.xml
+[monodroid-assembly]     ZIP: local header offset: 285506; data offset: 285574; file size: 840
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/test_reflow_chipgroup.xml
+[monodroid-assembly]     ZIP: local header offset: 285919; data offset: 285985; file size: 1060
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/test_toolbar.xml
+[monodroid-assembly]     ZIP: local header offset: 286347; data offset: 286404; file size: 360
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/test_toolbar_custom_background.xml
+[monodroid-assembly]     ZIP: local header offset: 286615; data offset: 286690; file size: 400
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/test_toolbar_elevation.xml
+[monodroid-assembly]     ZIP: local header offset: 286928; data offset: 286995; file size: 400
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/test_toolbar_surface.xml
+[monodroid-assembly]     ZIP: local header offset: 287233; data offset: 287298; file size: 392
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/text_view_with_line_height_from_appearance.xml
+[monodroid-assembly]     ZIP: local header offset: 287530; data offset: 287617; file size: 408
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/text_view_with_line_height_from_layout.xml
+[monodroid-assembly]     ZIP: local header offset: 287857; data offset: 287940; file size: 552
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/text_view_with_line_height_from_style.xml
+[monodroid-assembly]     ZIP: local header offset: 288234; data offset: 288316; file size: 396
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/text_view_with_theme_line_height.xml
+[monodroid-assembly]     ZIP: local header offset: 288550; data offset: 288627; file size: 408
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/text_view_without_line_height.xml
+[monodroid-assembly]     ZIP: local header offset: 288868; data offset: 288942; file size: 364
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout/toolbar.xml
+[monodroid-assembly]     ZIP: local header offset: 289157; data offset: 289209; file size: 496
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout-sw600dp-v13/design_layout_snackbar.xml
+[monodroid-assembly]     ZIP: local header offset: 289491; data offset: 289570; file size: 528
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout-sw600dp-v13/mtrl_layout_snackbar.xml
+[monodroid-assembly]     ZIP: local header offset: 289868; data offset: 289945; file size: 492
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml
+[monodroid-assembly]     ZIP: local header offset: 290223; data offset: 290314; file size: 1208
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout-watch-v20/abc_alert_dialog_title_material.xml
+[monodroid-assembly]     ZIP: local header offset: 290784; data offset: 290870; file size: 1352
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout-v26/abc_screen_toolbar.xml
+[monodroid-assembly]     ZIP: local header offset: 291419; data offset: 291486; file size: 1560
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout-v26/mtrl_calendar_month.xml
+[monodroid-assembly]     ZIP: local header offset: 292135; data offset: 292203; file size: 744
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/layout-land/mtrl_picker_header_dialog.xml
+[monodroid-assembly]     ZIP: local header offset: 292624; data offset: 292699; file size: 1440
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/mipmap-mdpi-v4/icon.png
+[monodroid-assembly]     ZIP: local header offset: 293264; data offset: 293324; file size: 2354
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/mipmap-mdpi-v4/launcher_foreground.png
+[monodroid-assembly]     ZIP: local header offset: 295678; data offset: 295752; file size: 3855
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/mipmap-hdpi-v4/icon.png
+[monodroid-assembly]     ZIP: local header offset: 299607; data offset: 299664; file size: 3871
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/mipmap-hdpi-v4/launcher_foreground.png
+[monodroid-assembly]     ZIP: local header offset: 303535; data offset: 303608; file size: 7033
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/mipmap-xhdpi-v4/icon.png
+[monodroid-assembly]     ZIP: local header offset: 310641; data offset: 310700; file size: 5448
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/mipmap-xhdpi-v4/launcher_foreground.png
+[monodroid-assembly]     ZIP: local header offset: 316148; data offset: 316224; file size: 10713
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/mipmap-xxhdpi-v4/icon.png
+[monodroid-assembly]     ZIP: local header offset: 326937; data offset: 326996; file size: 9517
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/mipmap-xxhdpi-v4/launcher_foreground.png
+[monodroid-assembly]     ZIP: local header offset: 336513; data offset: 336588; file size: 19808
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/mipmap-xxxhdpi-v4/icon.png
+[monodroid-assembly]     ZIP: local header offset: 356396; data offset: 356456; file size: 13930
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/mipmap-xxxhdpi-v4/launcher_foreground.png
+[monodroid-assembly]     ZIP: local header offset: 370386; data offset: 370464; file size: 30980
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/mipmap-anydpi-v26/icon.xml
+[monodroid-assembly]     ZIP: local header offset: 401444; data offset: 401504; file size: 448
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/mipmap-anydpi-v26/icon_round.xml
+[monodroid-assembly]     ZIP: local header offset: 401719; data offset: 401785; file size: 448
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/xml/image_share_filepaths.xml
+[monodroid-assembly]     ZIP: local header offset: 402000; data offset: 402063; file size: 308
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/xml/standalone_badge.xml
+[monodroid-assembly]     ZIP: local header offset: 402226; data offset: 402284; file size: 268
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/xml/standalone_badge_gravity_bottom_end.xml
+[monodroid-assembly]     ZIP: local header offset: 402450; data offset: 402527; file size: 312
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/xml/standalone_badge_gravity_bottom_start.xml
+[monodroid-assembly]     ZIP: local header offset: 402723; data offset: 402802; file size: 312
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/xml/standalone_badge_gravity_top_start.xml
+[monodroid-assembly]     ZIP: local header offset: 402998; data offset: 403074; file size: 312
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/xml/standalone_badge_offset.xml
+[monodroid-assembly]     ZIP: local header offset: 403270; data offset: 403335; file size: 360
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: res/xml/xamarin_essentials_fileprovider_file_paths.xml
+[monodroid-assembly]     ZIP: local header offset: 403552; data offset: 403636; file size: 572
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: resources.arsc
+[monodroid-assembly]     ZIP: local header offset: 403843; data offset: 403888; file size: 453024
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: classes.dex
+[monodroid-assembly]     ZIP: local header offset: 856912; data offset: 856962; file size: 4632564
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/arm64-v8a/libxamarin-app.so
+[monodroid-assembly]     ZIP: local header offset: 2683896; data offset: 2683966; file size: 1937336
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/armeabi-v7a/libxamarin-app.so
+[monodroid-assembly]     ZIP: local header offset: 2997511; data offset: 2997583; file size: 1510900
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/x86/libxamarin-app.so
+[monodroid-assembly]     ZIP: local header offset: 3244992; data offset: 3245056; file size: 1255524
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/x86_64/libxamarin-app.so
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.Fragment.dll [External]
+[monodroid-assembly]     ZIP: local header offset: 3457721; data offset: 3457788; file size: 1940952
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/armeabi-v7a/libmonodroid.so
+[monodroid-assembly]     ZIP: local header offset: 3771145; data offset: 3771215; file size: 252912
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/x86/libmonodroid.so
+[monodroid-assembly]     ZIP: local header offset: 3884206; data offset: 3884268; file size: 313548
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/arm64-v8a/libmonodroid.so
+[monodroid-assembly]     ZIP: local header offset: 4013046; data offset: 4013114; file size: 313088
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/x86_64/libmonodroid.so
+[monodroid-assembly]     ZIP: local header offset: 4126746; data offset: 4126811; file size: 331384
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/armeabi-v7a/libxa-internal-api.so
+[monodroid-assembly]     ZIP: local header offset: 4254634; data offset: 4254710; file size: 48652
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/x86/libxa-internal-api.so
+[monodroid-assembly]     ZIP: local header offset: 4267056; data offset: 4267124; file size: 61348
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/arm64-v8a/libxa-internal-api.so
+[monodroid-assembly]     ZIP: local header offset: 4282236; data offset: 4282310; file size: 65312
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/x86_64/libxa-internal-api.so
+[monodroid-assembly]     ZIP: local header offset: 4298126; data offset: 4298197; file size: 57496
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/armeabi-v7a/libmono-btls-shared.so
+[monodroid-assembly]     ZIP: local header offset: 4312289; data offset: 4312366; file size: 1113088
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/x86/libmono-btls-shared.so
+[monodroid-assembly]     ZIP: local header offset: 4864655; data offset: 4864724; file size: 1459984
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/arm64-v8a/libmono-btls-shared.so
+[monodroid-assembly]     ZIP: local header offset: 5471537; data offset: 5471612; file size: 1613872
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/x86_64/libmono-btls-shared.so
+[monodroid-assembly]     ZIP: local header offset: 6134804; data offset: 6134876; file size: 1886464
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/armeabi-v7a/libmono-profiler-log.so
+[monodroid-assembly]     ZIP: local header offset: 6993811; data offset: 6993889; file size: 273184
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/x86/libmono-profiler-log.so
+[monodroid-assembly]     ZIP: local header offset: 7089012; data offset: 7089082; file size: 262152
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/arm64-v8a/libmono-profiler-log.so
+[monodroid-assembly]     ZIP: local header offset: 7182256; data offset: 7182332; file size: 284472
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/x86_64/libmono-profiler-log.so
+[monodroid-assembly]     ZIP: local header offset: 7273008; data offset: 7273081; file size: 302472
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/armeabi-v7a/libmonosgen-2.0.so
+[monodroid-assembly]     ZIP: local header offset: 7377909; data offset: 7377982; file size: 4456716
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/x86/libmonosgen-2.0.so
+[monodroid-assembly]     ZIP: local header offset: 9153182; data offset: 9153247; file size: 4212604
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/arm64-v8a/libmonosgen-2.0.so
+[monodroid-assembly]     ZIP: local header offset: 10824219; data offset: 10824290; file size: 4037584
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/x86_64/libmonosgen-2.0.so
+[monodroid-assembly]     ZIP: local header offset: 12424174; data offset: 12424242; file size: 4673408
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/arm64-v8a/libLiteCore.so
+[monodroid-assembly]     ZIP: local header offset: 14288335; data offset: 14288402; file size: 4721328
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/armeabi-v7a/libLiteCore.so
+[monodroid-assembly]     ZIP: local header offset: 16271669; data offset: 16271738; file size: 3119340
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/x86/libLiteCore.so
+[monodroid-assembly]     ZIP: local header offset: 18002753; data offset: 18002814; file size: 5048700
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/x86_64/libLiteCore.so
+[monodroid-assembly]     ZIP: local header offset: 20136250; data offset: 20136314; file size: 5098392
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/armeabi-v7a/libmono-native.so
+[monodroid-assembly]     ZIP: local header offset: 22295629; data offset: 22295701; file size: 736764
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/x86/libmono-native.so
+[monodroid-assembly]     ZIP: local header offset: 22628708; data offset: 22628772; file size: 803736
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/arm64-v8a/libmono-native.so
+[monodroid-assembly]     ZIP: local header offset: 22968818; data offset: 22968888; file size: 707024
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/x86_64/libmono-native.so
+[monodroid-assembly]     ZIP: local header offset: 23291879; data offset: 23291946; file size: 836552
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/armeabi-v7a/libxamarin-debug-app-helper.so
+[monodroid-assembly]     ZIP: local header offset: 23657880; data offset: 23657965; file size: 31708
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/x86/libxamarin-debug-app-helper.so
+[monodroid-assembly]     ZIP: local header offset: 23670255; data offset: 23670332; file size: 32832
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/arm64-v8a/libxamarin-debug-app-helper.so
+[monodroid-assembly]     ZIP: local header offset: 23682953; data offset: 23683036; file size: 38408
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: lib/x86_64/libxamarin-debug-app-helper.so
+[monodroid-assembly]     ZIP: local header offset: 23696075; data offset: 23696155; file size: 37608
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.versionedparcelable_versionedparcelable.version
+[monodroid-assembly]     ZIP: local header offset: 23709252; data offset: 23709356; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.lifecycle_lifecycle-runtime.version
+[monodroid-assembly]     ZIP: local header offset: 23709362; data offset: 23709456; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.core_core.version
+[monodroid-assembly]     ZIP: local header offset: 23709462; data offset: 23709536; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.customview_customview.version
+[monodroid-assembly]     ZIP: local header offset: 23709542; data offset: 23709628; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.viewpager_viewpager.version
+[monodroid-assembly]     ZIP: local header offset: 23709634; data offset: 23709720; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.savedstate_savedstate.version
+[monodroid-assembly]     ZIP: local header offset: 23709726; data offset: 23709812; file size: 14
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.recyclerview_recyclerview.version
+[monodroid-assembly]     ZIP: local header offset: 23709826; data offset: 23709916; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.lifecycle_lifecycle-viewmodel.version
+[monodroid-assembly]     ZIP: local header offset: 23709922; data offset: 23710016; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.arch.core_core-runtime.version
+[monodroid-assembly]     ZIP: local header offset: 23710022; data offset: 23710112; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.lifecycle_lifecycle-livedata-core.version
+[monodroid-assembly]     ZIP: local header offset: 23710118; data offset: 23710216; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.loader_loader.version
+[monodroid-assembly]     ZIP: local header offset: 23710222; data offset: 23710300; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.lifecycle_lifecycle-viewmodel-savedstate.version
+[monodroid-assembly]     ZIP: local header offset: 23710306; data offset: 23710412; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.activity_activity.version
+[monodroid-assembly]     ZIP: local header offset: 23710418; data offset: 23710500; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.fragment_fragment.version
+[monodroid-assembly]     ZIP: local header offset: 23710506; data offset: 23710588; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.viewpager2_viewpager2.version
+[monodroid-assembly]     ZIP: local header offset: 23710594; data offset: 23710680; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.vectordrawable_vectordrawable.version
+[monodroid-assembly]     ZIP: local header offset: 23710686; data offset: 23710780; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.interpolator_interpolator.version
+[monodroid-assembly]     ZIP: local header offset: 23710786; data offset: 23710876; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.vectordrawable_vectordrawable-animated.version
+[monodroid-assembly]     ZIP: local header offset: 23710882; data offset: 23710988; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.transition_transition.version
+[monodroid-assembly]     ZIP: local header offset: 23710994; data offset: 23711080; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.drawerlayout_drawerlayout.version
+[monodroid-assembly]     ZIP: local header offset: 23711086; data offset: 23711176; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.cursoradapter_cursoradapter.version
+[monodroid-assembly]     ZIP: local header offset: 23711182; data offset: 23711276; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.coordinatorlayout_coordinatorlayout.version
+[monodroid-assembly]     ZIP: local header offset: 23711282; data offset: 23711384; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.cardview_cardview.version
+[monodroid-assembly]     ZIP: local header offset: 23711390; data offset: 23711472; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.appcompat_appcompat-resources.version
+[monodroid-assembly]     ZIP: local header offset: 23711478; data offset: 23711572; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.appcompat_appcompat.version
+[monodroid-assembly]     ZIP: local header offset: 23711578; data offset: 23711664; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.annotation_annotation-experimental.version
+[monodroid-assembly]     ZIP: local header offset: 23711670; data offset: 23711772; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/com.google.android.material_material.version
+[monodroid-assembly]     ZIP: local header offset: 23711778; data offset: 23711872; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.swiperefreshlayout_swiperefreshlayout.version
+[monodroid-assembly]     ZIP: local header offset: 23711878; data offset: 23711980; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.slidingpanelayout_slidingpanelayout.version
+[monodroid-assembly]     ZIP: local header offset: 23711986; data offset: 23712088; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.print_print.version
+[monodroid-assembly]     ZIP: local header offset: 23712094; data offset: 23712172; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.media_media.version
+[monodroid-assembly]     ZIP: local header offset: 23712178; data offset: 23712256; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.localbroadcastmanager_localbroadcastmanager.version
+[monodroid-assembly]     ZIP: local header offset: 23712262; data offset: 23712372; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.lifecycle_lifecycle-livedata.version
+[monodroid-assembly]     ZIP: local header offset: 23712378; data offset: 23712472; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.documentfile_documentfile.version
+[monodroid-assembly]     ZIP: local header offset: 23712478; data offset: 23712568; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.legacy_legacy-support-core-utils.version
+[monodroid-assembly]     ZIP: local header offset: 23712574; data offset: 23712672; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.asynclayoutinflater_asynclayoutinflater.version
+[monodroid-assembly]     ZIP: local header offset: 23712678; data offset: 23712784; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.legacy_legacy-support-core-ui.version
+[monodroid-assembly]     ZIP: local header offset: 23712790; data offset: 23712884; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.legacy_legacy-support-v4.version
+[monodroid-assembly]     ZIP: local header offset: 23712890; data offset: 23712980; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/androidx.browser_browser.version
+[monodroid-assembly]     ZIP: local header offset: 23712986; data offset: 23713068; file size: 6
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/maven/com.google.guava/listenablefuture/pom.xml
+[monodroid-assembly]     ZIP: local header offset: 23713074; data offset: 23713169; file size: 2226
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/maven/com.google.guava/listenablefuture/pom.properties
+[monodroid-assembly]     ZIP: local header offset: 23714060; data offset: 23714162; file size: 96
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/proguard/androidx-annotations.pro
+[monodroid-assembly]     ZIP: local header offset: 23714253; data offset: 23714334; file size: 339
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/ANDROIDD.SF
+[monodroid-assembly]     ZIP: local header offset: 23714463; data offset: 23714513; file size: 87072
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/ANDROIDD.RSA
+[monodroid-assembly]     ZIP: local header offset: 23745295; data offset: 23745346; file size: 1213
+[monodroid-assembly] /data/app/com.companyname.xamarincouchbasetest-1/base.apk entry: META-INF/MANIFEST.MF
+[monodroid-assembly]     ZIP: local header offset: 23746405; data offset: 23746455; file size: 86945
+[libc-netbsd] [getaddrinfo]: hostname=127.0.0.1; servname=8895; netid=0; mark=0
+[libc-netbsd] [getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=4; ai_family=2
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.Interpolator.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.Legacy.Support.Core.UI.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.Legacy.Support.Core.Utils.dll [External]
+[monodroid-gc] GREF GC Threshold: 46080
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.Legacy.Support.V4.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.Lifecycle.Common.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.Lifecycle.LiveData.Core.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.Lifecycle.LiveData.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.Lifecycle.Runtime.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.Lifecycle.ViewModel.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.Loader.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.LocalBroadcastManager.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.Media.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.MultiDex.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.Print.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.RecyclerView.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.SavedState.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.SlidingPaneLayout.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.SwipeRefreshLayout.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.Transition.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.VectorDrawable.Animated.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.VectorDrawable.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.VersionedParcelable.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.ViewPager.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.AndroidX.ViewPager2.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.Essentials.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.Forms.Core.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.Forms.Platform.Android.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.Forms.Platform.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.Forms.Xaml.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.Google.Android.Material.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Xamarin.Google.Guava.ListenableFuture.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/XamarinCouchbaseTest.dll
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Mono.Android.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Java.Interop.dll [External]
+Resolved pending breakpoint for 'Android.Runtime.JNIEnv.RegisterJniNatives(System.IntPtr, System.Int32, System.IntPtr, System.IntPtr, System.Int32)' to /Users/builder/azdo/_work/1/s/xamarin-android/src/Mono.Android/Android.Runtime/JNIEnv.cs:124 [0x00000].
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/System.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/Mono.Security.dll [External]
+[art] Attempt to remove non-JNI local reference, dumping thread
+Loaded assembly: data-0x7f5fea7000 [External]
+Loaded assembly: data-0x7f5fe4c000 [External]
+Loaded assembly: data-0x7f5fe5a000 [External]
+Loaded assembly: data-0x7f5fe02000 [External]
+Loaded assembly: data-0x7f5fcef000 [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/netstandard.dll [External]
+Resolved pending breakpoint for 'Xamarin.HotReload.HotReloadAgent.BreakpointSendToIde(System.String)' to D:\a\_work\1\s\HotReload\Source\Xamarin.HotReload.Agent\HotReloadAgent.cs:405 [0x00000].
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/System.Core.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/System.Runtime.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/System.Resources.ResourceManager.dll [External]
+Resolved pending breakpoint for 'Xamarin.HotReload.HotReloadAgent.BreakpointCheckpoint()' to D:\a\_work\1\s\HotReload\Source\Xamarin.HotReload.Agent\HotReloadAgent.cs:400 [0x00000].
+[art] Before Android 4.1, method android.graphics.PorterDuffColorFilter androidx.vectordrawable.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+[art] Rejecting re-init on previously-failed class java.lang.Class<androidx.core.view.ViewCompat$2>
+[art] Rejecting re-init on previously-failed class java.lang.Class<androidx.core.view.ViewCompat$2>
+[MultiWindowProxy] getServiceInstance failed!
+[SettingsInterface] invalidate [global]: current 245 != cached 0
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/System.Threading.Tasks.Extensions.dll [External]
+Loaded assembly: Anonymously Hosted DynamicMethods Assembly [External]
+[CouchbaseLite] [1]| [Database] (Startup) [1] CouchbaseLite/3.0.0 (.NET; Android 6.0 [API 23]; Wtk C72) Build/124 LiteCore/b018a12db01222d451b4f7b95478d4825bc19954 (191) Commit/f733cb70
+[CouchbaseLite] [1]| [Database] (Logging) [1] Database.Log.File.Config is null, meaning file logging is disabled.  Log files required for product support are not being generated.
+Thread started:  #2
+Thread started:  #3
+Thread finished:  #3
+The thread 0x3 has exited with code 0 (0x0).
+Thread started:  #4
+Thread started: <Thread Pool> #5
+Thread started: <Thread Pool> #6
+Thread started: <Thread Pool> #7
+Thread started: <Thread Pool> #8
+Thread started: <Thread Pool> #9
+Thread finished:  #4
+Thread started: <Thread Pool> #10
+Thread started: <Thread Pool> #11
+[libc-netbsd] [getaddrinfo]: hostname=couchbase; servname=0; netid=0; mark=0
+[libc-netbsd] [getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=2; ai_family=0
+[libc-netbsd] getaddrinfo: couchbase get result from proxy gai_error = 7
+Thread started:  #12
+Thread started:  #13
+Thread started:  #14
+The thread 0x4 has exited with code 0 (0x0).
+Thread started:  #15
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/System.Runtime.Serialization.dll [External]
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/System.Xml.dll [External]
+Thread finished:  #15
+Thread started:  #16
+Loaded assembly: /data/data/com.companyname.xamarincouchbasetest/files/.__override__/System.ServiceModel.Internals.dll [External]
+[CouchbaseLite] [18]| [Network] {N8litecore4repl12C4SocketImplE#2} WebSocket failed to connect! (reason=Network error 2)
+Thread started:  #17
+[CouchbaseLite] [19]| [Replicator] {Repl#1} Got LiteCore error: Network error 2, "Could not resolve host 'couchbase'"
+Thread finished:  #16
+Thread started:  #18
+[CouchbaseLite] [4]| [Replicator] {C4Replicator#3} Transient error (Network error 2, "Could not resolve host 'couchbase'"); attempt #2 in 2 sec...
+The thread 0xf has exited with code 0 (0x0).
+The thread 0x10 has exited with code 0 (0x0).
+**System.InvalidOperationException:** 'Operation already in progress'
+
+Thread finished: <Thread Pool> #8
+The thread 0x8 has exited with code 0 (0x0).
+Thread started:  #19
+Thread started:  #20
+[CouchbaseLite] [21]| [Network] {N8litecore4repl12C4SocketImplE#5} No response received after 15 sec -- disconnecting
+[mono-rt] [ERROR] FATAL UNHANDLED EXCEPTION: System.InvalidOperationException: Operation already in progress
+[mono-rt]   at System.Net.Sockets.SocketAsyncEventArgs.SetLastOperation (System.Net.Sockets.SocketAsyncOperation op) [0x00021] in /Users/builder/jenkins/workspace/archive-mono/2020-02/android/release/mcs/class/System/System.Net.Sockets/SocketAsyncEventArgs.cs:180 
+[mono-rt]   at System.Net.Sockets.Socket.InitSocketAsyncEventArgs (System.Net.Sockets.SocketAsyncEventArgs e, System.AsyncCallback callback, System.Object state, System.Net.Sockets.SocketOperation operation) [0x00030] in /Users/builder/jenkins/workspace/archive-mono/2020-02/android/release/mcs/class/System/System.Net.Sockets/Socket.cs:2967 
+[mono-rt]   at System.Net.Sockets.Socket.ReceiveAsync (System.Net.Sockets.SocketAsyncEventArgs e) [0x00084] in /Users/builder/jenkins/workspace/archive-mono/2020-02/android/release/mcs/class/System/System.Net.Sockets/Socket.cs:1516 
+[mono-rt]   at System.Net.NetworkInformation.LinuxNetworkChange.OnDataAvailable (System.Object sender, System.Net.Sockets.SocketAsyncEventArgs args) [0x0004a] in /Users/builder/jenkins/workspace/archive-mono/2020-02/android/release/mcs/class/System/System.Net.NetworkInformation/NetworkChange.cs:456 
+[mono-rt]   at System.Net.Sockets.SocketAsyncEventArgs.OnCompleted (System.Net.Sockets.SocketAsyncEventArgs e) [0x0000e] in /Users/builder/jenkins/workspace/archive-mono/2020-02/android/release/mcs/class/System/System.Net.Sockets/SocketAsyncEventArgs.cs:198 
+[mono-rt]   at System.Net.Sockets.SocketAsyncEventArgs.Complete_internal () [0x00009] in /Users/builder/jenkins/workspace/archive-mono/2020-02/android/release/mcs/class/System/System.Net.Sockets/SocketAsyncEventArgs.cs:188 
+[mono-rt]   at System.Net.Sockets.Socket+<>c.<.cctor>b__366_10 (System.IAsyncResult ares) [0x0005d] in /Users/builder/jenkins/workspace/archive-mono/2020-02/android/release/mcs/class/System/System.Net.Sockets/Socket.cs:1541 
+[mono-rt]   at System.Net.Sockets.SocketAsyncResult+<>c.<Complete>b__27_0 (System.Object state) [0x00000] in /Users/builder/jenkins/workspace/archive-mono/2020-02/android/release/mcs/class/System/System.Net.Sockets/SocketAsyncResult.cs:157 
+[mono-rt]   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem () [0x00015] in /Users/builder/jenkins/workspace/archive-mono/2020-02/android/release/mcs/class/referencesource/mscorlib/system/threading/threadpool.cs:1337 
+[mono-rt]   at System.Threading.ThreadPoolWorkQueue.Dispatch () [0x00074] in /Users/builder/jenkins/workspace/archive-mono/2020-02/android/release/mcs/class/referencesource/mscorlib/system/threading/threadpool.cs:899 
+[mono-rt]   at System.Threading._ThreadPoolWaitCallback.PerformWaitCallback () [0x00000] in /Users/builder/jenkins/workspace/archive-mono/2020-02/android/release/mcs/class/referencesource/mscorlib/system/threading/threadpool.cs:1261 
+[libc-netbsd] [getaddrinfo]: hostname=couchbase; servname=0; netid=0; mark=0
+[libc-netbsd] [getaddrinfo]: ai_addrlen=0; ai_canonname=(null); ai_flags=2; ai_family=0
+[libc-netbsd] getaddrinfo: couchbase get result from proxy gai_error = 7
+Thread finished:  #20
+Thread started:  #21
+[MALI] osup_destructor:170: osup_destructor
+Thread started:  #22
+Thread finished:  #21
+[0:] Error :: Couchbase.Lite.CouchbaseNetworkException: CouchbaseLiteException (NetworkDomain / 2): Could not resolve host 'couchbase'.
+The thread 0x14 has exited with code 0 (0x0).
+The thread 0x15 has exited with code 0 (0x0).
+The connection with the debugger has been lost. The target application may have exited.
